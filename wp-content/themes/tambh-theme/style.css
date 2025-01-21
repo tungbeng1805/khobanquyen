@@ -1588,3 +1588,9 @@ button#place_order, a.checkout-button.button.alt.wc-forward{
 	flex-direction: column;
 	column-gap: 10px;
 }
+
+@media (max-width:1600px) {
+    .banner-fixed {
+        display: none;
+    }
+}
