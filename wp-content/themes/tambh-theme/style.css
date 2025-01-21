@@ -1594,3 +1594,9 @@ button#place_order, a.checkout-button.button.alt.wc-forward{
         display: none;
     }
 }
+
+@media (max-width: 1024px) {
+    .logo-tagline {
+        display: none;
+    }
+}

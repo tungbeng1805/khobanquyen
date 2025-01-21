@@ -50,11 +50,10 @@ if ( ! empty( $site_logo_dark_id ) && ! is_numeric( $site_logo_dark_id ) ) {
 			bloginfo( 'name' );
 		}
 		?>
+		<?php
+		if(get_theme_mod('site_logo_slogan')){
+			echo '<p class="logo-tagline">'.get_bloginfo('description').'</p>';
+		}
+		?>
 </a>
 
-
-<?php
-if(get_theme_mod('site_logo_slogan')){
-	echo '<p class="logo-tagline">'.get_bloginfo('description').'</p>';
-}
-?>
