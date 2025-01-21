@@ -75,7 +75,7 @@ header .searchform-wrapper:not(.form-flat) .ux-search-submit:hover {
 }
 
 header .searchform-wrapper:not(.form-flat) .ux-search-submit i {
-    color: #4E5EE6;
+    color: var(--fs-color-primary);
 }
 
 header .form-flat .icon-search {
