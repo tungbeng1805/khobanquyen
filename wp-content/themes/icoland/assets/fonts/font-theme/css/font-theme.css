@@ -1,0 +1,7 @@
+@font-face {
+  font-family: Furore;
+  src: url('../Furore.otf') format('otf');
+}
+.ft-furore {
+    font-family: "Furore", sans-serif !important;
+}

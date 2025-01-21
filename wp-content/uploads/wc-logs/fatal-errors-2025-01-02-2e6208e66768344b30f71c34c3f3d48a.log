@@ -1,0 +1,21 @@
+2025-01-02T02:14:57+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/u721578760/domains/tnexthemes.com/public_html/demo/dataclient/wp-content/themes/tambh-theme/functions.php:348
+Stack trace:
+#0 /home/u721578760/domains/tnexthemes.com/public_html/demo/dataclient/wp-includes/shortcodes.php(434): get_product_reviews_count_shortcode()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/u721578760/domains/tnexthemes.com/public_html/demo/dataclient/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/u721578760/domains/tnexthemes.com/public_html/demo/dataclient/wp-content/themes/flatsome/inc/shortcodes/ux_html.php(34): do_shortcode()
+#4 /home/u721578760/domains/tnexthemes.com/public_html/demo/dataclient/wp-includes/shortcodes.php(434): flatsome_render_ux_html_shortcode()
+#5 [internal function]: do_shortcode_tag()
+#6 /home/u721578760/domains/tnexthemes.com/public_html/demo/dataclient/wp-includes/shortcodes.php(273): preg_replace_callback()
+#7 /home/u721578760/domains/tnexthemes.com/public_html/demo/dataclient/wp-includes/class-wp-hook.php(324): do_shortcode()
+#8 /home/u721578760/domains/tnexthemes.com/public_html/demo/dataclient/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#9 /home/u721578760/domains/tnexthemes.com/public_html/demo/dataclient/wp-content/plugins/seo-by-rank-math/includes/modules/links/class-links.php(171): apply_filters()
+#10 /home/u721578760/domains/tnexthemes.com/public_html/demo/dataclient/wp-content/plugins/seo-by-rank-math/includes/modules/links/class-links.php(59): RankMath\Links\Links->process()
+#11 /home/u721578760/domains/tnexthemes.com/public_html/demo/dataclient/wp-content/plugins/seo-by-rank-math/includes/modules/links/class-links.php(154): RankMath\Links\Links->save_post()
+#12 /home/u721578760/domains/tnexthemes.com/public_html/demo/dataclient/wp-includes/class-wp-hook.php(324): RankMath\Links\Links->cron_job()
+#13 /home/u721578760/domains/tnexthemes.com/public_html/demo/dataclient/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/u721578760/domains/tnexthemes.com/public_html/demo/dataclient/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/u721578760/domains/tnexthemes.com/public_html/demo/dataclient/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/u721578760/domains/tnexthemes.com/public_html/demo/dataclient/wp-content/themes/tambh-theme/functions.php on line 348
+

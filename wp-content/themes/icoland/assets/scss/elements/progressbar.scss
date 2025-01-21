@@ -1,0 +1,468 @@
+.pxl--progressbar {
+    @include transition(width 1.4s ease);
+    width: 0;
+    &.vertical {
+        @include transition(height 1.4s ease);
+        height: 0;
+    }
+}
+.pxl-progressbar-1 {
+    .pxl--progressbar {
+        border-radius: 100px;   
+        overflow: hidden;
+        height: 22px;
+        position: relative;background-color: $primary_color;
+        top: 3px;
+        left: 3px;
+    }
+    .pxl--holder {
+        background-color: transparent;
+        height: 30px;
+        border-radius: 100px;  
+        border-radius: 144px;
+        border: 1px solid rgba(246,246,246,0.4);
+    }
+    .pxl--percentage {
+        color:  #fff;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        text-transform: capitalize;
+        @extend .ft-theme-default;
+    }
+    .pxl--title {
+        color: #48D6D2;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; 
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    .pxl--meta {
+        margin-bottom: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .pxl--value {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        line-height: 22px;
+        text-transform: capitalize;
+        position: absolute;
+        bottom: -27px;
+        &.pxl--value1 {
+            left: 10px;
+            &:before {
+                position: absolute;
+                content: '';
+                top: -38px;
+                left: 50%;
+                transform:translatex(-50%);
+                width: 2px;
+                height: 36px;
+                background-color: #fff;
+            }
+            @media (max-width: 575px) {
+                display: none;
+            }
+        }
+        &.pxl--value2 {
+            left: 10px;
+            &:before {
+                position: absolute;
+                content: '';
+                top: -38px;
+                left: 50%;
+                transform:translatex(-50%);
+                width: 2px;
+                height: 36px;
+                background-color: #fff;
+            }
+            @media (max-width: 575px) {
+                display: none;
+            }
+        }
+        &.pxl--value3 {
+            right: 10px;
+            &:before {
+                position: absolute;
+                content: '';
+                top: -35px;
+                left: 50%;
+                transform: translatex(-50%);
+                width: 2px;
+                height: 30px;
+                background-color: #fff;
+            }
+            @media (max-width: 575px) {
+                display: none;
+            }
+        }
+    }
+    .pxl--item {
+        position: relative;
+        + .pxl--item {
+            margin-top: 28px;
+        }
+    }
+    &.style2 {
+        .pxl--holder {
+            border: none;
+        }
+        .pxl--percentage {
+            padding: 0 16px;
+            text-align: right;
+        }
+        .pxl--progressbar {
+            top: 4px;
+            left: 4px;
+        }
+        .pxl--value1,.pxl--value2,.pxl--value3 {
+            &:before {
+                height: 48px;
+                top: -49px;
+            }
+        }
+    }
+    &.style3 {
+        .pxl--holder {
+            border: none;
+            border-radius: 6px;
+        }
+        .pxl--percentage {
+            padding: 0 16px;
+            text-align: right;
+        }
+        .pxl--progressbar {
+            border-radius: 6px;
+            top: 4px;
+            left: 4px;
+        }
+        .pxl--value1,.pxl--value2,.pxl--value3 {
+            &:before {
+                height: 48px;
+                top: -49px;
+                background-color: #48D6D2;
+            }
+        }
+    }
+}
+.pxl-progressbar-2 {
+    .pxl--progressbar {
+        border-radius: 100px;   
+        overflow: hidden;
+        height: 12px;
+        position: relative;
+    }
+    .pxl--holder {
+        background-color: transparent;
+        height: 12px;
+        border-radius: 100px;  
+        border-radius: 144px;
+    }
+    .pxl--percentage {
+        color: #FFF;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+        @extend .ft-theme-default;
+    }
+    .pxl--title {
+        color: #FFF;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+        margin-bottom: 0;
+    }
+    .pxl--meta {
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        column-gap: 3px;
+    }
+    .pxl--item {
+        position: relative;
+        + .pxl--item {
+            margin-top: 28px;
+        }
+    }
+}
+///pxl countdown progress
+.pxl-countdown-progress {
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,0.2);
+    .title {
+        text-align: center;
+        color: #FFF;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        text-transform: capitalize;
+        margin-bottom: 28px;
+        margin-top: 40px;
+        @media (max-width: 575px) {
+            font-size: 26px;
+        }
+    }
+    .pxl-icon1 {
+        display: flex;
+        justify-content: center;
+        column-gap: 60px;
+        background-color: rgba(255,255,255,0.06);
+        margin-top: 61px;
+        @media (max-width: 575px) {
+            column-gap: 30px;
+        }
+        a {
+            line-height: 60px; 
+
+        }
+    }
+    .pxl-progressbar-1 {
+        padding: 0 40px;
+        @media (max-width: 575px) {
+            padding: 0 15px;
+        }
+        .pxl--progressbar {
+            border-radius: 100px;   
+            overflow: hidden;
+            height: 22px;
+            position: relative;
+            background-color: $primary_color;
+            top: 3px;
+            left: 3px;
+        }
+        .pxl--holder {
+            background-color: #3f3c64;
+            height: 30px;
+            border-radius: 144px;
+            border: 1px solid rgba(246,246,246,0.4);
+        }
+        .pxl--percentage {
+            color:  #fff;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px;
+            text-transform: capitalize;
+            @extend .ft-theme-default;
+        }
+        .pxl--title {
+            color: #fff;
+            text-align: center;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px; 
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            margin-bottom: 0;
+            strong {
+                color: #FF4581;
+            }
+        }
+        .pxl--meta {
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .pxl--value {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            line-height: 22px;
+            text-transform: capitalize;
+            position: absolute;
+            bottom: -27px;
+            &.pxl--value1 {
+                left: 10px;
+                &:before {
+                    position: absolute;
+                    content: '';
+                    top: -38px;
+                    left: 50%;
+                    transform:translatex(-50%);
+                    width: 2px;
+                    height: 36px;
+                    background-color: #fff;
+                }
+                @media (max-width: 575px) {
+                    display: none;
+                }
+            }
+            &.pxl--value2 {
+                left: 10px;
+                &:before {
+                    position: absolute;
+                    content: '';
+                    top: -38px;
+                    left: 50%;
+                    transform:translatex(-50%);
+                    width: 2px;
+                    height: 36px;
+                    background-color: #fff;
+                }
+                @media (max-width: 575px) {
+                    display: none;
+                }
+            }
+            &.pxl--value3 {
+                right: 10px;
+                &:before {
+                    position: absolute;
+                    content: '';
+                    top: -35px;
+                    left: 50%;
+                    transform: translatex(-50%);
+                    width: 2px;
+                    height: 30px;
+                    background-color: #fff;
+                }
+                @media (max-width: 575px) {
+                    display: none;
+                }
+            }
+        }
+        .pxl--item {
+            position: relative;
+            + .pxl--item {
+                margin-top: 28px;
+            }
+        }
+        &.style2 {
+            .pxl--holder {
+                border: none;
+            }
+            .pxl--percentage {
+                padding: 0 16px;
+                text-align: right;
+            }
+            .pxl--progressbar {
+                top: 4px;
+                left: 4px;
+            }
+            .pxl--value1,.pxl--value2,.pxl--value3 {
+                &:before {
+                    height: 48px;
+                    top: -49px;
+                }
+            }
+        }
+    }
+    .pxl-countdown {
+        margin-bottom: 28px;
+        justify-content:center;
+        display: flex;
+        position: relative;
+        padding-bottom: 40px;
+        .countdown-amount {
+            position: relative;
+            z-index: 2;
+            font-size: 0px;
+            margin-top: 2px;
+            span {
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 70px;
+                color: #ffffff;
+                @extend .ft-inter;
+                @media (max-width: 575px) {
+                    font-size: 26px;
+                    line-height: 50px;
+                }
+            }
+        }
+        .countdown-period {
+            position: absolute;
+            z-index: 2;
+            color: #F6F6F6;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: 1.2px;
+            text-align: center;
+            color: #fff;
+            bottom: -34px;
+            left: 0;
+            right: 0;
+        }
+        .countdown-item {
+            position: relative;
+            background-color: rgba(255,255,255,0.1);
+            @include transition(250ms all linear 0ms);
+            border-radius: 6px;
+            width: 70px;
+            height: 70px;
+            text-align: center;
+            position: relative;
+            @media (max-width: 575px) {
+                width: 50px;
+                height: 50px;
+            }
+            .countdown-item-inner {
+                width: 70px;
+                height: 70px;
+                z-index: 2;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                @include transform(translate(-50%, -50%));
+                @media (max-width: 575px) {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+            + .countdown-item {
+                margin-left: 40px;
+                @media (max-width: 575px) {
+                    margin-left: 10px;
+                }
+                &:before {
+                    position: absolute;
+                    content: ':';
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 30px;
+                    color:#fff;
+                    top: 17px;
+                    left: -24px;
+                    @media (max-width: 575px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    } 
+}
+.pxl-progressbar-1,.pxl-progressbar-4,.pxl-progressbar-3 {
+    .pxl--title  {
+        @media (max-width: 575px) {
+            display: none;
+        }
+    }
+    .pxl--title-end {
+        @media (max-width: 575px) {
+            display: block;
+        }
+    }
+}

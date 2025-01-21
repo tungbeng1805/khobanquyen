@@ -1,0 +1,275 @@
+.pxl-image-box1 {
+    .pxl-item--inner {
+        position: relative;
+        &:before {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            opacity: 0.3;
+            background:linear-gradient(90deg, #3DBFBB 0%, #8635BD 100%);
+            top: 0;
+            left: 0;
+            transform: scalex(0);
+            transform-origin:center;
+            @include transition(250ms all linear 0ms);
+        }
+        .pxl-item--holder {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 30px 40px 41px 40px;
+            background: linear-gradient(0.4deg, #0F141E 0.48%, rgba(15, 20, 30, 0.411458) 67.72%, rgba(15, 20, 30, 0.0001) 100%);
+            @include transition(200ms all linear 0ms); 
+            @media (max-width: 575px) {
+                padding: 20px;
+            }
+            .pxl-item--title {
+                color:#FFF;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 32px; 
+                text-transform: capitalize;
+                margin-bottom: 0;
+            }
+            .pxl-item--description {
+                color: #A09FAF;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+            }
+        }
+        .pxl-item-image {
+            img {
+                width: 100%;
+            }
+        }
+        .btn-video-wrap {
+            opacity: 0;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            @include transition(250ms all linear 0ms);
+            .btn-video {
+                width: 60px;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(255,255,255,0.2);
+                &:before {
+                    position: absolute;
+                    content: '';
+                    top: 0px;
+                    left: 0px;
+                    right: 0px;
+                    bottom: 0px;
+                    animation: scale-border2 3s linear infinite;
+                    border: 0.3px solid rgba(255,255,255,0.7);
+                    background-color: transparent !important;
+                    border-radius: 500px;
+                    opacity: 0;
+                };
+                &:after {
+                    position: absolute;
+                    content: '';
+                    top: 0px;
+                    left: 0px;
+                    right: 0px;
+                    bottom: 0px;
+                    animation: scale-border2 3s 1.5s linear infinite;
+                    background-color: transparent !important;
+                    border: 0.3px solid rgba(255,255,255,0.7);
+                    border-radius: 500px;
+                    opacity: 0;
+                }
+                img {
+                    height: 25px;
+                }
+            }
+        }
+        &:hover {
+            &:before {
+                transform: scalex(1);
+            }
+            .pxl-item--holder {
+                padding: 30px 40px 30px 40px;
+                @media (max-width: 575px) {
+                    padding: 20px;
+                }
+            }
+            .btn-video-wrap {
+                top: 50%;
+                opacity: 1;
+                @include transition(250ms all linear 200ms);
+            }
+        }
+    }
+}
+.pxl-image-box2 {
+    .pxl-item--inner {
+        background-color: #232323;
+        padding: 43px 240px 24px 32px;
+        position: relative;
+        @media (max-width: 650px) {
+            padding: 43px 32px 24px 32px;
+        }
+        @media (max-width: 575px) {
+            padding: 25px;
+        }
+        &:before {
+            position: absolute;
+            content: '';
+            top: -20px;
+            left: -20px;
+            right: -20px;
+            bottom: -20px;
+            border: 2px solid #B4E116;
+            @include transition(250ms all linear 0ms);
+            opacity: 0;
+        }
+        .pxl-item-image {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            @media (max-width: 650px) {
+                img {
+                    width: 50px;
+                }
+            }
+        }
+        .pxl-item--holder {
+            position: relative;
+            z-index: 2;
+            .pxl-item--title {
+                color:  #FFF;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 42px; 
+                text-transform: capitalize;
+                max-width: 355px;   
+                @media (max-width: 650px) {
+                    max-width: 100%; 
+                }
+                a:hover {
+                    color: #B4E116;
+                }
+            }
+            .pxl-item--description {
+                color:  #A09FAF;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px; 
+                margin-bottom: 17px;
+                max-width: 355px;
+                @media (max-width: 650px) {
+                    max-width: 100%; 
+                }
+            }
+        }
+        .btn-readmore {
+            position: relative;
+            z-index: 2;
+        }
+        &:hover {
+            &:before {
+                opacity: 1;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                bottom: 0px;
+            }
+        }
+    }
+}
+.pxl-image-box3 {
+    .pxl-item--inner {
+        @include transition(250ms all linear 0ms);
+        position: relative;
+        padding: 29px;
+        position: relative;
+        transition: 0.3s all ease-in-out;
+        background: #07000A;
+        border: 2.10333px solid rgba(218, 72, 255, 0.4);
+        box-shadow: inset 0px 0px 57.3156px rgba(218, 72, 255, 0.6);
+        clip-path: polygon(0 28px, 28px 0, calc(100% - 28px) 0, 100% 28px, 100% calc(100% - 28px), calc(100% - 28px) 100%, 28px 100%, 0% calc(100% - 28px), 0% 28px);
+        .wrap-content {
+            clip-path: polygon(0 28px, 28px 0, calc(100% - 28px) 0, 100% 28px, 100% calc(100% - 28px), calc(100% - 28px) 100%, 28px 100%, 0% calc(100% - 28px), 0% 28px);
+            position: relative;
+            overflow: hidden;
+            
+            .pxl-item-image {
+                clip-path: polygon(0 28px, 28px 0, calc(100% - 28px) 0, 100% 28px, 100% calc(100% - 28px), calc(100% - 28px) 100%, 28px 100%, 0% calc(100% - 28px), 0% 28px);
+                img {
+                    width: 100%;
+                }
+            }
+            .pxl-item--title {
+                margin-bottom: 0;
+                padding: 24px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                color:  #FFF;
+                text-align: center;
+                font-family: 'Zen Dots',sans-serif;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+                @include transition(250ms all linear 0ms);
+                text-transform: capitalize;
+                background: rgba(92, 3, 106, 0.5);
+                @media (max-width: 575px) {
+                    font-size: 16px;
+                }
+                &:hover a{
+                    color: #C004DE;
+                }
+            }
+        }
+        .boder {
+            position: absolute;
+            i {
+                font-size: 73px;
+                color: rgba(192, 4, 222, 0.2);
+                @include transition(250ms all linear 0ms);
+            }
+            &.bd1 {
+                top: 0;
+                left: -1px;
+            }
+            &.bd2 {
+                top: 0;
+                right: -1px;
+                transform:rotate(180deg) rotatex(180deg);
+            }
+            &.bd3 {
+                bottom: 0;
+                right: -1px;
+                transform:rotate(180deg) rotatex(0deg);
+            }
+            &.bd4 {
+                bottom: 0;
+                left: -1px;
+                transform: rotate(0deg) rotatex(180deg);
+            }
+        }
+        &:hover {
+            transform: translatey(-10px);
+            border-color: #C004DE;
+            .boder {
+                i {
+                    color: #C004DE;
+                }
+            }
+        }
+    }
+}

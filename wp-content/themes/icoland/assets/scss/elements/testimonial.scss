@@ -1,0 +1,164 @@
+/*--------------------------------------------------------------
+post grid
+----------------------------------------------------------------
+# testimonial carousel
+# testimonial grid
+# testimonial single
+--------------------------------------------------------------*/
+
+// carousel
+//--------------------------------------------------
+.pxl-item--4-star i:nth-child(5) {
+    display: none;
+}
+.pxl-item--3-star {
+    i:nth-child(5), i:nth-child(4) {
+        display: none;
+    }
+}
+.pxl-item--2-star {
+    i:nth-child(5), i:nth-child(4), i:nth-child(3) {
+        display: none;
+    }
+}
+.pxl-item--1-star {
+    i:nth-child(5), i:nth-child(4), i:nth-child(3), i:nth-child(2) {
+        display: none;
+    }
+}
+.pxl-item--star {
+    color: #ffd203;
+}
+
+
+// grid
+//--------------------------------------------------
+
+
+// carousel
+
+.pxl-testimonial-carousel1 {
+    .wp-arrow {
+        margin-top:28px;
+        margin-bottom: 24px;
+        display: flex;
+        align-items:center;
+        column-gap:30px;
+        .pxl-swiper-arrow {
+            position: relative;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 48px;
+            height: 48px;
+            line-height: 47px;
+            border-radius: 0;
+            background-color: transparent;
+            transform:none;
+            border: 1px solid $primary_color;
+            i {
+                font-size: 30px;
+                color: #fff;
+                line-height: 48px;
+                @include transition(250ms all linear 0ms);
+            }
+            &:hover {
+                background-color: $primary_color;
+            }
+        }
+    }
+    .pxl-swiper-thumbs {
+        .swiper-wrapper {
+            column-gap:20px;
+        }
+        .swiper-slide {
+            background: rgba(34, 183, 143, 0.1);
+            border: 1px solid #0E2331;
+            @include transition(250ms all linear 0ms);
+            max-width: 150px;
+            &:hover,&.swiper-slide-thumb-active {
+                background: rgba(34, 183, 143, 0.1);
+                border: 1px solid $primary_color;
+            }
+        }
+    }
+    .pxl-swiper-container {
+        .pxl-swiper-slide {
+            .pxl-item--inner  {
+                display: flex;
+                column-gap:30px;
+                align-items:center;
+                @media (max-width: 575px) {
+                    max-width: 100%;
+                }
+                .pxl-item--image {
+                    background: rgba(34, 183, 143, 0.1);
+                    border: 2px solid #22b78f;
+                }
+                .pxl-item-body {
+                    .pxl-item--title  {
+                        font-weight: 700;
+                        font-size: 36px;
+                        margin-bottom: 4px;
+                        line-height: 44px;
+                        @media (max-width: 575px) {
+                            padding-top: 20px;
+                        }
+                    }
+                    .pxl-item--position {
+                        font-weight: 400;
+                        font-size: 14px;
+                        @extend .ft-inter;
+                        line-height: 22px;
+                        color: #b9b9bf;
+                        opacity: 0.6;
+                    }
+                    .pxl-item--desc {
+                        margin-top: 16px;
+                        margin-bottom: 22px;
+                        max-width: 320px;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 28px;
+                        color: #ffffff;
+                        @media (max-width: 575px) {
+                            display: block;
+                        }
+
+                    }
+                    .pxl-item--social {
+                        display: flex;
+                        column-gap:12px;
+                        a {
+                            font-size: 14px; 
+                            display: flex;
+                            align-items:center;
+                            justify-content:center;
+                            width: 28px;
+                            height: 28px;
+                            background-color: #145d5f;
+                            border-radius: 8px;
+                            &:hover {
+                                background-color: $primary-color;
+                                color: #fff;
+                            }
+                        }    
+                    }
+
+                }
+            }
+        }
+    }        
+}
+//--------------------------------------------------
+
+// single
+//--------------------------------------------------
+
+
+.pl-lg-30 > .elementor-element-populated {
+    @media (max-width: 1250px) and (min-width: 1025px) {
+        padding-left: 30px !important;
+    }
+    
+}

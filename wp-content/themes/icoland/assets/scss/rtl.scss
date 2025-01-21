@@ -1,0 +1,621 @@
+/*--------------------------------------------------------------
+RTL
+----------------------------------------------------------------
+# Header
+# Blog
+# WordPress Widget
+# Elementor Widget
+# Extra
+# Important
+--------------------------------------------------------------*/
+body.rtl {
+	direction: rtl;
+	unicode-bidi: embed;
+	text-align: right;
+
+	.rtl-icon {
+		@include transform(scaleX(-1));
+		display: inline-block;
+	}
+
+	.pxl-text-left {
+	    text-align: right;
+	}
+	.pxl-text-right {
+	    text-align: left;
+	}
+	
+	// Start Header
+	//--------------------------------------------------
+	@media #{$min-xl} {
+		.pxl-nav-menu .pxl-menu-primary {
+			> li {
+				&.menu-item-has-children > a .caseicon-angle-arrow-down {
+					margin-left: 0;
+					margin-right: 8px;
+				}
+			}
+		}
+		.pxl-menu-primary .sub-menu, .pxl-menu-primary .children {
+			text-align: right;
+		}
+		.pxl-menu-primary {
+			li a span {
+				&:before {
+					left: auto;
+					right: 0;
+				}
+			}
+			> li {
+				> .sub-menu:not(.pxl-mega-menu), > .children:not(.pxl-mega-menu) {
+					left: auto;
+					right: 0;
+					text-align: right;
+					li {
+						> .sub-menu, > .children {
+							left: auto;
+							right: 100%;
+							text-align: right;
+						}
+					}
+				}
+			}
+			.sub-menu li.menu-item-has-children > a::after {
+				content: "\f136";
+				right: auto;
+				left: 0;
+			}
+		}
+		.pxl-nav-menu.hv-style1 .pxl-menu-primary > li > a::before {
+			left: auto;
+			right: 0;
+		}
+	}
+	@media #{$max-lg} {
+		#pxl-header-default , #pxl-header-elementor {
+			#pxl-nav-mobile {
+				right: auto;
+				left: 15px;
+			}
+		}
+		.pxl-header-menu {
+			left: auto;
+			right: 0;
+			@include transform(translateX(100%));
+			&.active {
+				@include transform(translateX(0%));
+			}
+		}
+		.pxl-menu-toggle, .pxl-menu-close, .pxl-header-mobile-search .search-submit {
+			right: auto;
+			left: 0;
+		}
+		.pxl-menu-primary {
+			.sub-menu li a, .children li a {
+				padding-left: 0;
+				padding-right: 14px;
+			}
+		}
+		.pxl-menu-primary .pxl-megamenu .pxl-heading {
+			padding-left: 0;
+			padding-right: 14px;
+		}
+	}
+	#pxl-search-popup .pxl-item--conent form .search-submit {
+		right: auto;
+		left: 0;
+		text-align: left;
+	}
+	.pxl-type-header-clip > .elementor-container .pxl-header-shape {
+		margin-left: 190px;
+		margin-right: 52px;
+	}
+	.pxl-type-header-clip > .elementor-container .pxl-header-shape span {
+		transform: scaleX(-1);
+	}
+	.pxl-type-header-clip > .elementor-container .pxl-header-shape::before {
+		left: auto;
+		right: -45px;
+	}
+	.pxl-type-header-clip > .elementor-container .pxl-header-shape::after {
+		left: auto;
+		right: -52px;
+	}
+	// End Header
+	//--------------------------------------------------
+
+	// Start Blog
+	//--------------------------------------------------
+	.pxl-item--post .pxl-item--meta li {
+		margin-right: 0;
+		margin-left: 20px;
+		i {
+			margin-right: 0;
+			margin-left: 8px;
+		}
+	}
+	blockquote {
+		padding-left: 40px;
+		padding-right: 40px;
+		margin-left: 0;
+		margin-right: 0;
+		&:before {
+			left: auto;
+			right: 0;
+		}
+	}
+	.pxl--post-footer label {
+		margin-right: 0;
+		margin-left: 18px;
+	}
+	.pxl--post-footer .pxl--tags {
+		margin-right: 0;
+		margin-left: 30px;
+	}
+	.pxl-post--navigation .pxl--item-prev {
+		.pxl--img {
+			margin-right: 0;
+			margin-left: 22px;
+		}
+		.pxl--label i {
+			margin-right: 0;
+			margin-left: 4px;
+			&:before {
+				content: "\f134";
+			}
+		}
+	}
+	.pxl-post--navigation .pxl--item-next {
+		text-align: left;
+		.pxl--img {
+			margin-left: 0;
+			margin-right: 22px;
+		}
+		.pxl--label i {
+			margin-left: 0;
+			margin-right: 4px;
+			&:before {
+				content: "\f13a";
+			}
+		}
+	}
+	.pxl-item--post .pxl-item--meta::before {
+		right: 0;
+		left: auto;
+	}
+	.comment-inner img.avatar {
+		margin-right: 0;
+		margin-left: 18px;
+	}
+	.comment-reply {
+		right: auto;
+		left: 23px;
+		a i {
+			@include transform(scaleX(-1));
+			margin-left: 0;
+			margin-right: 5px;
+		}
+	}
+	.comment-form-cookies-consent {
+		padding-left: 0;
+		padding-right: 24px;
+	}
+	.comment-form-cookies-consent input, .comment-form-cookies-consent label::before, .comment-form-cookies-consent label::after {
+		left: auto;
+		right: 0;
+	}
+	.comment-list li {
+		.comment-respond {
+			margin-left: 0;
+			margin-right: 130px;
+			@media #{$max-sm} {
+	            margin-left: 0px;
+	            margin-right: 78px;
+	        }
+	        @media #{$max-xs} {
+	            margin-right: 0;
+	        }
+	    }
+	    .children {
+            padding-right: 120px;
+            padding-left: 0;
+            @media #{$max-sm} {
+                padding-right: 78px;
+                padding-left: 0;
+            }
+            @media #{$max-xs} {
+                padding-right: 0;
+            }
+        }
+	}
+	.comment-reply-title small {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+	.pxl-item--post .pxl-item--readmore a:hover {
+		padding-right: 30px;
+		padding-left: 48px;
+	}
+	.pxl-item--post .pxl-item--readmore i {
+		right: auto;
+		left: 36px;
+		transform: translate(0, -50%) scaleX(-1);
+	}
+	.pxl-item--post .pxl-item--readmore a:hover i {
+		left: 24px;
+	}
+	.pxl-pagination-wrap .page-numbers i {
+		@include transform(scaleX(-1));
+	}
+	// End Blog
+	//--------------------------------------------------
+
+	// Start WordPress Widget
+	//--------------------------------------------------
+	.widget-title::before, .comment-reply-title::before, .comments-title::before {
+		left: auto;
+		right: 0;
+	}
+	.widget_product_categories,
+	.widget_categories,
+	.widget_nav_menu,
+	.widget_pages,
+	.widget_archive,
+	.widget_meta,
+	.widget_recent_entries {
+		ul {
+	        li {
+	        	a {
+	                &:before {
+	                    content: "\f136";
+	                    margin-right: 0;
+	                    margin-left: 8px;
+	                    float: right;
+	                }
+	        	}
+	        	&.current-menu-item > a, &.current-cat > a, &.current-cat-parent > a, > a:hover {
+	                padding-left: 0px;
+	                padding-right: 16px;
+	            }
+	        }
+		}
+	}
+	.widget_search .search-submit {
+		right: auto;
+		left: 0;
+	}
+	.widget_pxl_recent_posts .pxl-item--img {
+		margin-right: 0;
+		margin-left: 12px;
+	}
+	.widget_pxl_recent_posts .pxl-item--date i, .widget_tag_cloud a {
+		margin-right: 0;
+		margin-left: 6px;
+	}
+	.pxl-banner1 .pxl-item--meta {
+		left: auto;
+		right: -85px;
+		direction: ltr;
+	}
+	.pxl-testimonial-carousel1 .pxl-item--star {
+		margin-right: 0;
+		margin-left: 20px;
+	}
+	.pxl-testimonial-carousel1 .pxl-swiper-arrow {
+		right: auto;
+		left: 0;
+		&.pxl-swiper-arrow-prev {
+			left: 74px;
+		}
+	}
+	.pxl-testimonial-carousel1 .pxl-item--image {
+		margin-right: 0;
+		margin-left: 14px;
+	}
+	.pxl-grid-filter .filter-item.active {
+		margin-right: 0;
+		margin-left: 24px;
+	}
+	.pxl-grid-filter .filter-item.active:last-child {
+		margin-left: 0;
+	}
+	.pxl-mailchimp.style-outline [type="email"] {
+		margin-right: 0;
+		margin-left: 20px;
+		@media #{$max-sm} {
+			margin-left: 0;
+		}
+	}
+	.pxl-post-carousel1 .pxl-item--author img {
+		margin-right: 0;
+		margin-left: 14px;
+	}
+	.pxl-post-carousel1 .pxl-item--date i {
+		margin-right: 0;
+		margin-left: 6px;
+	}
+	.pxl-btn-line:hover i {
+		margin-left: 0;
+		margin-right: 12px;
+	}
+	.pxl-history1 {
+		.pxl-item--start, .pxl-item--image {
+			right: 50%;
+			transform: translate(50%, 0);
+		}
+		.pxl-content--left {
+	        padding-right: 0;
+	        padding-left: 120px;
+	        @media #{$max-sm} {
+	            padding-right: 0;
+	            padding-left: 30px;
+	        }
+	        .pxl-item--title {
+	            &:before {
+	                right: auto;
+	                left: -130px;
+	                @media #{$max-sm} {
+	                    right: auto;
+	                    left: -40px;
+	                }
+	            }
+	            &:after {
+	                right: auto;
+	                left: -108px;
+	                @media #{$max-sm} {
+	                    right: auto;
+	                    left: -20px;
+	                }
+	            }
+	        }
+	    }
+	    .pxl-content--right {
+	        padding-left: 0px;
+	        padding-right: 120px;
+	        @media #{$max-sm} {
+	            padding-left: 0px;
+	            padding-right: 30px;
+	        }
+	        .pxl-item--title {
+	            &:before {
+	                left: auto;
+	                right: -130px;
+	                @media #{$max-sm} {
+	                    left: auto;
+	                    right: -40px;
+	                }
+	            }
+	            &:after {
+	                left: auto;
+	                right: -108px;
+	                @media #{$max-sm} {
+	                    left: auto;
+	                    right: -20px;
+	                }
+	            }
+	        }
+	    }
+	}
+	// End WordPress Widget
+	//--------------------------------------------------
+
+	// Start Elementor Widget
+	//--------------------------------------------------
+	.pxl-link.hv-style2 a::before {
+		right: 0;
+		left: auto;
+	}
+	.pxl-mailchimp.style-default [type="submit"] {
+		right: auto;
+		left: 0;
+	}
+	.pxl-link li i {
+		margin-right: 0;
+		margin-left: 8px;
+	}
+	.pxl-feature1 .pxl--item-title::before {
+		left: auto;
+		right: 0;
+	}
+	.pxl-process1 .pxl--item:nth-child(2) .pxl-item--divider, .pxl-process1 .pxl--item:nth-child(1) .pxl-item--divider {
+		left: -101px;
+		right: auto;
+	}
+	.pxl-process1 .pxl-item--image {
+		right: auto;
+		left: 0;
+	}
+	.pxl-testimonial-carousel2 .pxl-item--image {
+		margin-right: 0;
+		margin-left: 24px;
+	}
+	.pxl-partner-carousel1 .pxl-swiper-arrow.pxl-swiper-arrow-next {
+		right: auto;
+		left: 0;
+	}
+	.pxl-partner-carousel1 .pxl-swiper-arrow.pxl-swiper-arrow-prev {
+		left: auto;
+		right: 0;
+	}
+	.pxl-partner-carousel1 .pxl-item--inner::before {
+		right: auto;
+		left: -15px;
+	}
+	.pxl-mailchimp.style-primary [type="email"] {
+		margin-right: 0;
+		margin-left: 16px;
+	}
+	.pxl-link.hv-style5 li a {
+		padding-left: 42px;
+		padding-right: 20px;
+	}
+	.pxl-link.hv-style5 li i {
+		margin: 0;
+		right: auto;
+		left: 20px;
+		@include transform(translate(0, -50%) scaleX(-1));
+	}
+	.pxl-testimonial-single1 .pxl-item--image {
+		margin-right: 0;
+		margin-left: 20px;
+	}
+	.pxl-testimonial-single1.style-img-larger .pxl-item--image {
+		margin-right: 30px;
+	}
+	.pxl-testimonial-carousel1 .pxl-item--image, .pxl-testimonial-grid1 .pxl-item--image {
+		margin-right: 0;
+		margin-left: 16px;
+	}
+	.pxl-testimonial-grid1 .pxl-item--holder::before {
+		left: auto;
+		right: 40px;
+		transform: scaleX(-1);
+	}
+	.pxl-link.hv-style6 li i {
+		right: auto;
+		left: 10px;
+		margin: 0;
+	}
+	.pxl-blog-grid-layout3 .pxl-item--meta i {
+		margin-right: 0;
+		margin-left: 6px;
+	}
+	.pxl-blog-grid-layout3 .pxl-item--meta > div {
+		margin-right: 0;
+		margin-left: 18px;
+		&:last-child {
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+	.pxl-icon-box2.style3 .pxl-item--icon {
+		margin-right: 0;
+		margin-left: 14px;
+	}
+	.pxl-banner2 .pxl-item--project .pxl-project--icon {
+		margin-right: 0;
+		margin-left: 10px;
+	}
+	.pxl-banner2 .pxl-item--team {
+		margin-right: 0;
+		margin-left: 16px;
+	}
+	.pxl-banner2 .pxl-item--meta {
+		margin-right: 0;
+		margin-left: 22px;
+	}
+	.pxl-portfolio-carousel2 .pxl-item--meta {
+		padding-right: 20px;
+		padding-left: 70px;
+	}
+	.pxl-portfolio-carousel2 .pxl-item--readmore {
+		right: auto;
+		left: 20px;
+	}
+	.pxl-testimonial-carousel4 .pxl-item--image {
+		margin-right: 0;
+		margin-left: 28px;
+	}
+	.pxl-swiper-arrow-style2 .pxl-swiper-arrow-wrap {
+		right: auto;
+		left: 20px;
+	}
+	.pxl-swiper-arrow-style2 .pxl-swiper-arrow.pxl-swiper-arrow-prev {
+		margin-right: 0;
+		margin-left: 16px;
+	}
+	.pxl-mailchimp.style-box-white2 [type="email"] {
+		padding-left: 0;
+		padding-right: 30px;
+	}
+	.pxl-link.hv-style3 a:hover {
+		padding-left: 0;
+		padding-right: 18px;
+	}
+	.pxl-link.hv-style3 a::before {
+		left: auto;
+		right: -11px;
+	}
+	.pxl-link.hv-style3 a:hover::before {
+		left: auto;
+		right: 0;
+	}
+	.pxl-video-player1 .btn-video.style4 + .pxl-video-text {
+		margin-left: 0;
+		margin-right: 14px;
+	}
+	@media #{$min-xl} {
+		.pxl-tabs1.style-text-gradient .pxl-tabs--title {
+			margin-right: 0;
+			margin-left: 20px;
+		}
+		.pxl-tabs1.style-text-gradient .pxl-tabs--title .pxl-item--title::before {
+			left: auto;
+			right: 22px;
+		}
+	}
+	.pxl-accordion1.style3 .pxl-item--title {
+		padding: 28px 80px 28px 20px;
+	}
+	.pxl-accordion1.style3 .pxl-icon--plus {
+		left: auto;
+		right: 30px;
+	}
+	.pxl-icon-box2.style4 .pxl-item--icon {
+		margin-right: 0;
+		margin-left: 16px;
+	}
+	// End Elementor Widget
+	//--------------------------------------------------
+
+	// Extra
+	//--------------------------------------------------
+	.pxl-swiper-arrow-style1 .pxl-swiper-dots.pxl-swiper-pagination-fraction span.swiper-pagination-current {
+		margin-right: 0;
+		margin-left: 50px;
+	}
+	.pxl-swiper-arrow-style1 .pxl-swiper-dots.pxl-swiper-pagination-fraction span.swiper-pagination-current::before {
+		left: auto;
+		right: 32px;
+	}
+	.pxl-wapper .btn-plus-text {
+		flex-direction: row-reverse;
+	}
+	.btn.btn-slider1 i {
+		margin-left: 0;
+		margin-right: 18px;
+		@include transform(scaleX(-1));
+	}
+	#pxl-page-title-default .pxl-breadcrumb li {
+		&:before {
+			content: "\f14d";
+			margin: 0 14px;
+			font-weight: 700;
+			color: inherit;
+			font-family: Caseicon;
+			font-size: 11px;
+			@extend .text-gradient;
+		}
+		&:after {
+			display: none;
+		}
+	}
+	.pxl-scroll-top {
+		right: auto;
+		left: 40px;
+	}
+	.pxl-col-line1::before {
+		left: 25px;
+		right: auto;
+	}
+	input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea, select, .nice-select {
+		text-align: right;
+	}
+
+	// IMPORTANT
+	//--------------------------------------------------
+	.pxl-contact-form .wpcf7-form-control-wrap .wpcf7-not-valid-tip {
+		right: auto;
+		left: 18px;
+	}
+}

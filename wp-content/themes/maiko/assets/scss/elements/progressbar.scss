@@ -1,0 +1,90 @@
+.pxl--progressbar {
+    @include transition(width 1.4s ease);
+    width: 0;
+    &.vertical {
+        @include transition(height 1.4s ease);
+        height: 0;
+    }
+}
+.pxl-progressbar-1 {
+    &.style-1 {
+        .pxl-progressbar--wrap {
+            height: 2px;
+            background-color: rgba(#111, 0.15);
+            .pxl--progressbar {
+                height: 2px;
+                background-color: #000;
+                position: relative;
+            }
+        }
+        .pxl--title {
+            font-size: 18px;
+            margin-bottom: 13px;
+            font-weight: 400;
+        }
+        .pxl--percentage {
+            color: $primary_color;
+            font-weight: 500;
+            @extend .ft-theme-default;
+            margin-bottom: 12px;
+        }
+        .pxl--item + .pxl--item {
+            margin-top: 35px;
+        }
+    }
+    &.style-2 {
+        .pxl-progressbar--wrap {
+            height: 1px;
+            background-color: rgba(#111, 0.15);
+            .pxl--progressbar {
+                height:1px;
+                background-color: $secondary_color;;
+                position: relative;
+                position:relative;
+                &:before {
+                    position: absolute;
+                    content:'';
+                    top:-6px;
+                    right:0;
+                    width: 1px;
+                    height: 13px;
+                    background-color: $secondary_color;
+                }
+                &:after {
+                    position: absolute;
+                    content: '';
+                    top: -6px;
+                    left: 0;
+                    width: 1px;
+                    height: 13px;
+                    background-color: $secondary_color;
+                }    
+            }
+        }
+        .pxl--percentage {
+            position:absolute;
+            top: -38px;
+            right: 0;
+            @media (max-width: 767px){
+                top:-24px;
+            }
+        }
+        .pxl--title {
+            font-size: 15px;
+            margin-bottom: 12px;
+            font-weight: 400;
+            letter-spacing: 0.15px;
+        }
+        .pxl--percentage {
+            color: $primary_color;
+            @extend .ft-gt;
+        }
+        .pxl--item + .pxl--item {
+            margin-top: 35px;
+        }
+    }
+}
+
+body.rtl {
+
+}

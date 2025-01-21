@@ -1,0 +1,5269 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: icoland 1.0.0\n"
+"Report-Msgid-Bugs-To: Transinterr Name <translations@example.com>\n"
+"POT-Creation-Date: 2024-10-11 15:17+0700\n"
+"PO-Revision-Date: 2016-12-23 16:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Last-Transinterr: \n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:13
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:16
+msgid "We can’t find the page that you’re looking for."
+msgstr ""
+
+#: 404.php:19
+msgid "Back To Homepage"
+msgstr ""
+
+#: comments.php:20
+msgid "Comment"
+msgstr ""
+
+#: comments.php:22
+msgid "Comments"
+msgstr ""
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:52
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:53
+msgid "Leave a Comment To "
+msgstr ""
+
+#: comments.php:54
+msgid "Cancel Comment"
+msgstr ""
+
+#: comments.php:55
+msgid "Send"
+msgstr ""
+
+#: elements/element-custom.php:10 elements/element-custom.php:215
+msgid "Icoland Settings"
+msgstr ""
+
+#: elements/element-custom.php:18
+msgid "Header Layout Type"
+msgstr ""
+
+#: elements/element-custom.php:21 elements/element-custom.php:36
+#: elements/element-custom.php:129 elements/element-custom.php:227
+#: elements/element-custom.php:273 elements/element-custom.php:322
+#: elements/widgets/pxl_accordion.php:158 elements/widgets/pxl_button.php:218
+#: elements/widgets/pxl_contact_form.php:133 elements/widgets/pxl_icon.php:287
+#: inc/theme-options/option-functions.php:27
+msgid "None"
+msgstr ""
+
+#: elements/element-custom.php:22
+msgid "Clip"
+msgstr ""
+
+#: elements/element-custom.php:31 elements/element-custom.php:222
+msgid "Section Offset"
+msgstr ""
+
+#: elements/element-custom.php:37 elements/element-custom.php:228
+#: elements/element-custom.php:274 elements/widgets/pxl_button.php:50
+#: elements/widgets/pxl_countdown.php:73 elements/widgets/pxl_countdown.php:170
+#: elements/widgets/pxl_countdown_progress.php:57
+#: elements/widgets/pxl_countdown_progress.php:154
+#: elements/widgets/pxl_heading.php:48 elements/widgets/pxl_history.php:191
+#: elements/widgets/pxl_icon.php:99 elements/widgets/pxl_image.php:54
+#: elements/widgets/pxl_link.php:74 elements/widgets/pxl_logo.php:58
+#: elements/widgets/pxl_menu.php:40 elements/widgets/pxl_post_grid.php:135
+#: elements/widgets/pxl_text_editor.php:31
+#: inc/theme-options/option-functions.php:195
+#: inc/theme-options/option-functions.php:202
+msgid "Left"
+msgstr ""
+
+#: elements/element-custom.php:38 elements/element-custom.php:229
+#: elements/element-custom.php:275 elements/widgets/pxl_button.php:58
+#: elements/widgets/pxl_countdown.php:81 elements/widgets/pxl_countdown.php:178
+#: elements/widgets/pxl_countdown_progress.php:65
+#: elements/widgets/pxl_countdown_progress.php:162
+#: elements/widgets/pxl_heading.php:56 elements/widgets/pxl_history.php:199
+#: elements/widgets/pxl_icon.php:107 elements/widgets/pxl_image.php:62
+#: elements/widgets/pxl_link.php:82 elements/widgets/pxl_logo.php:66
+#: elements/widgets/pxl_menu.php:48 elements/widgets/pxl_post_grid.php:143
+#: elements/widgets/pxl_text_editor.php:39
+#: inc/theme-options/option-functions.php:196
+#: inc/theme-options/option-functions.php:203
+msgid "Right"
+msgstr ""
+
+#: elements/element-custom.php:49 elements/element-custom.php:143
+#: elements/element-custom.php:253
+msgid "Container Width"
+msgstr ""
+
+#: elements/element-custom.php:54 elements/element-custom.php:258
+msgid "1200px"
+msgstr ""
+
+#: elements/element-custom.php:68
+msgid "Background - Left Space"
+msgstr ""
+
+#: elements/element-custom.php:71 elements/element-custom.php:84
+#: elements/element-custom.php:98 elements/element-custom.php:159
+#: elements/element-custom.php:243 elements/element-custom.php:389
+msgid "No"
+msgstr ""
+
+#: elements/element-custom.php:72 elements/element-custom.php:99
+#: elements/element-custom.php:160 elements/element-custom.php:244
+#: elements/element-custom.php:390
+msgid "Yes"
+msgstr ""
+
+#: elements/element-custom.php:81
+msgid "Canvas El"
+msgstr ""
+
+#: elements/element-custom.php:85 elements/widgets/pxl_history_carousel.php:59
+#: elements/widgets/pxl_image_box.php:49 elements/widgets/pxl_image_grid.php:45
+#: elements/widgets/pxl_post_carousel.php:279
+#: inc/theme-options/theme-options.php:155
+msgid "Style 1"
+msgstr ""
+
+#: elements/element-custom.php:86 elements/widgets/pxl_history_carousel.php:60
+#: elements/widgets/pxl_image_box.php:50 elements/widgets/pxl_image_grid.php:46
+#: elements/widgets/pxl_post_carousel.php:280 elements/widgets/pxl_token.php:28
+#: inc/theme-options/theme-options.php:156
+msgid "Style 2"
+msgstr ""
+
+#: elements/element-custom.php:95 elements/element-custom.php:240
+msgid "Background Parallax"
+msgstr ""
+
+#: elements/element-custom.php:109 elements/widgets/pxl_accordion.php:246
+#: elements/widgets/pxl_button.php:107 elements/widgets/pxl_button.php:131
+#: elements/widgets/pxl_button.php:299 elements/widgets/pxl_contact_form.php:80
+#: elements/widgets/pxl_contact_form.php:275
+#: elements/widgets/pxl_countdown_progress.php:453
+#: elements/widgets/pxl_download.php:69 elements/widgets/pxl_heading.php:257
+#: elements/widgets/pxl_hidden_sidebar.php:41 elements/widgets/pxl_icon.php:83
+#: elements/widgets/pxl_icon_user.php:18 elements/widgets/pxl_pricing.php:334
+#: elements/widgets/pxl_slider.php:48 inc/theme-options/page-options.php:169
+#: inc/theme-options/theme-options.php:180
+msgid "Background Color"
+msgstr ""
+
+#: elements/element-custom.php:125
+msgid "Full Content with space from?"
+msgstr ""
+
+#: elements/element-custom.php:130 elements/element-custom.php:375
+#: elements/widgets/pxl_product_grid.php:192
+#: inc/admin/libs/merlin/merlin-config.php:48
+msgid "Start"
+msgstr ""
+
+#: elements/element-custom.php:131 elements/element-custom.php:377
+#: elements/widgets/pxl_product_grid.php:200
+msgid "End"
+msgstr ""
+
+#: elements/element-custom.php:156
+msgid "Row Scroll - Column Fixed"
+msgstr ""
+
+#: elements/element-custom.php:170
+msgid "Parallax Background Image"
+msgstr ""
+
+#: elements/element-custom.php:181 elements/element-custom.php:308
+msgid "Border Color Dark Mode"
+msgstr ""
+
+#: elements/element-custom.php:191 elements/element-custom.php:297
+msgid "Background Color Dark Mode"
+msgstr ""
+
+#: elements/element-custom.php:270
+msgid "Divider"
+msgstr ""
+
+#: elements/element-custom.php:285 elements/widgets/pxl_icon.php:353
+#: elements/widgets/pxl_link.php:170
+msgid "Divider Color"
+msgstr ""
+
+#: elements/element-custom.php:319
+msgid "Column Line Style"
+msgstr ""
+
+#: elements/element-custom.php:323
+msgid "Line 1"
+msgstr ""
+
+#: elements/element-custom.php:324
+msgid "Line 2"
+msgstr ""
+
+#: elements/element-custom.php:334
+msgid "Column Line Color"
+msgstr ""
+
+#: elements/element-custom.php:348
+msgid "Column Line Height"
+msgstr ""
+
+#: elements/element-custom.php:371
+msgid "Column Content Align"
+msgstr ""
+
+#: elements/element-custom.php:374 elements/widgets/pxl_button.php:21
+#: elements/widgets/pxl_history.php:84 elements/widgets/pxl_history_carousel.php:99
+#: elements/widgets/pxl_history_carousel.php:132 elements/widgets/pxl_logo.php:21
+#: elements/widgets/pxl_menu.php:4 elements/widgets/pxl_tabs.php:79
+#: elements/widgets/pxl_token.php:27 inc/theme-options/option-functions.php:135
+#: inc/theme-options/page-options.php:297 inc/theme-options/page-options.php:309
+msgid "Default"
+msgstr ""
+
+#: elements/element-custom.php:376 elements/widgets/pxl_button.php:54
+#: elements/widgets/pxl_countdown.php:77 elements/widgets/pxl_countdown.php:174
+#: elements/widgets/pxl_countdown_progress.php:61
+#: elements/widgets/pxl_countdown_progress.php:158
+#: elements/widgets/pxl_heading.php:52 elements/widgets/pxl_history.php:195
+#: elements/widgets/pxl_icon.php:103 elements/widgets/pxl_image.php:58
+#: elements/widgets/pxl_link.php:78 elements/widgets/pxl_logo.php:62
+#: elements/widgets/pxl_menu.php:44 elements/widgets/pxl_post_grid.php:139
+#: elements/widgets/pxl_product_grid.php:196 elements/widgets/pxl_text_editor.php:35
+msgid "Center"
+msgstr ""
+
+#: elements/element-custom.php:386
+msgid "Column Sticky"
+msgstr ""
+
+#: elements/element-functions.php:38
+msgid "Et-Line"
+msgstr ""
+
+#: elements/element-functions.php:50
+msgid "Elegant"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: elements/element-functions.php:62
+msgid "Icoland"
+msgstr ""
+
+#: elements/element-functions.php:74
+msgid "Icoland Icomoon Icon"
+msgstr ""
+
+#: elements/element-functions.php:163 elements/element-functions.php:275
+#, php-format
+msgid "Select Templates of %s"
+msgstr ""
+
+#: elements/element-functions.php:183 elements/element-functions.php:295
+#: elements/widgets/pxl_chart.php:26 elements/widgets/pxl_client_carousel.php:28
+#: elements/widgets/pxl_collection_carousel.php:29
+#: elements/widgets/pxl_countdown.php:25
+#: elements/widgets/pxl_countdown_progress.php:25
+#: elements/widgets/pxl_counter.php:29 elements/widgets/pxl_download.php:23
+#: elements/widgets/pxl_history.php:23 elements/widgets/pxl_history_carousel.php:29
+#: elements/widgets/pxl_icon_box.php:23 elements/widgets/pxl_image_box.php:23
+#: elements/widgets/pxl_image_carousel.php:29 elements/widgets/pxl_image_grid.php:27
+#: elements/widgets/pxl_meta_box_carousel.php:28 elements/widgets/pxl_pricing.php:22
+#: elements/widgets/pxl_product_carousel.php:27
+#: elements/widgets/pxl_product_grid.php:29 elements/widgets/pxl_progressbar.php:27
+#: elements/widgets/pxl_showcase.php:23 elements/widgets/pxl_tabs.php:26
+#: elements/widgets/pxl_team_carousel.php:29 elements/widgets/pxl_team_grid.php:27
+#: elements/widgets/pxl_testimonial_carousel.php:29
+#: elements/widgets/pxl_text_carousel.php:29
+msgid "Layout 1"
+msgstr ""
+
+#: elements/element-functions.php:187 elements/element-functions.php:299
+#: elements/widgets/pxl_chart.php:30 elements/widgets/pxl_client_carousel.php:32
+#: elements/widgets/pxl_countdown.php:29 elements/widgets/pxl_counter.php:33
+#: elements/widgets/pxl_download.php:27 elements/widgets/pxl_history.php:27
+#: elements/widgets/pxl_history_carousel.php:33 elements/widgets/pxl_icon_box.php:27
+#: elements/widgets/pxl_image_box.php:27 elements/widgets/pxl_image_carousel.php:33
+#: elements/widgets/pxl_pricing.php:26 elements/widgets/pxl_progressbar.php:31
+#: elements/widgets/pxl_tabs.php:30 elements/widgets/pxl_team_carousel.php:33
+msgid "Layout 2"
+msgstr ""
+
+#: elements/element-functions.php:191 elements/element-functions.php:303
+#: elements/widgets/pxl_chart.php:34 elements/widgets/pxl_countdown.php:33
+#: elements/widgets/pxl_counter.php:37 elements/widgets/pxl_download.php:31
+#: elements/widgets/pxl_history.php:31 elements/widgets/pxl_history_carousel.php:37
+#: elements/widgets/pxl_icon_box.php:31 elements/widgets/pxl_image_box.php:31
+#: elements/widgets/pxl_pricing.php:30 elements/widgets/pxl_progressbar.php:35
+#: elements/widgets/pxl_tabs.php:34 elements/widgets/pxl_team_carousel.php:37
+msgid "Layout 3"
+msgstr ""
+
+#: elements/element-functions.php:215 elements/element-functions.php:331
+#, php-format
+msgid "Select Term of %s"
+msgstr ""
+
+#: elements/element-functions.php:243
+msgid "Select posts"
+msgstr ""
+
+#: elements/element-functions.php:307 elements/widgets/pxl_countdown.php:37
+#: elements/widgets/pxl_history.php:35 elements/widgets/pxl_history_carousel.php:41
+#: elements/widgets/pxl_icon_box.php:35 elements/widgets/pxl_pricing.php:34
+#: elements/widgets/pxl_tabs.php:38 elements/widgets/pxl_team_carousel.php:41
+msgid "Layout 4"
+msgstr ""
+
+#: elements/element-functions.php:567
+msgid "Animation"
+msgstr ""
+
+#: elements/element-functions.php:574 elements/widgets/pxl_heading.php:225
+#: elements/widgets/pxl_heading.php:310 elements/widgets/pxl_image_grid.php:72
+#: elements/widgets/pxl_post_grid.php:100 elements/widgets/pxl_token.php:61
+msgid "Case Animate"
+msgstr ""
+
+#: elements/element-functions.php:581 elements/widgets/pxl_heading.php:232
+#: elements/widgets/pxl_heading.php:317
+msgid "Animate Delay"
+msgstr ""
+
+#: elements/element-functions.php:600
+msgid "Type Your Search Words..."
+msgstr ""
+
+#: elements/element-functions.php:654 woocommerce/_hook_archives.php:417
+msgid "Cart"
+msgstr ""
+
+#: elements/element-functions.php:726
+msgid "Motion Effect"
+msgstr ""
+
+#: elements/element-functions.php:732 elements/widgets/pxl_counter.php:278
+msgid "Animation Duration"
+msgstr ""
+
+#: elements/element-functions.php:736
+msgid "Slow"
+msgstr ""
+
+#: elements/element-functions.php:737
+msgid "Normal"
+msgstr ""
+
+#: elements/element-functions.php:738
+msgid "Fast"
+msgstr ""
+
+#: elements/element-functions.php:745
+msgid "Animation Delay"
+msgstr ""
+
+#: elements/element-functions.php:766
+msgid "Extra Small <= 575"
+msgstr ""
+
+#: elements/element-functions.php:773
+msgid "Small <= 767"
+msgstr ""
+
+#: elements/element-functions.php:780
+msgid "Medium <= 991"
+msgstr ""
+
+#: elements/element-functions.php:787
+msgid "Large <= 1199"
+msgstr ""
+
+#: elements/element-functions.php:794
+msgid "XL Devices >= 1200"
+msgstr ""
+
+#: elements/element-functions.php:801
+msgid "XXL Devices >= 1400"
+msgstr ""
+
+#: elements/element-templates.php:260 elements/element-templates.php:375
+#: elements/element-templates.php:404
+msgid "Something went wrong while requesting. Please try again!"
+msgstr ""
+
+#: elements/element-templates.php:339
+msgid "Load Post Grid Successfully!"
+msgstr ""
+
+#: elements/element-templates.php:352
+msgid "Load Post Grid No More!"
+msgstr ""
+
+#: elements/element-templates.php:384 elements/element-templates.php:422
+msgid "Load Successfully!"
+msgstr ""
+
+#: elements/templates/pxl_arrow_carousel/layout-1.php:8
+msgid "arr1"
+msgstr ""
+
+#: elements/templates/pxl_arrow_carousel/layout-1.php:9
+msgid "arr2"
+msgstr ""
+
+#: elements/templates/pxl_countdown/layout-1.php:12
+#: elements/templates/pxl_countdown/layout-2.php:12
+#: elements/templates/pxl_countdown/layout-3.php:12
+#: elements/templates/pxl_countdown/layout-4.php:12
+#: elements/templates/pxl_countdown/layout-5.php:12
+#: elements/templates/pxl_countdown_progress/layout-1.php:18
+#: woocommerce/_hook_archives.php:230
+msgid "Month"
+msgstr ""
+
+#: elements/templates/pxl_countdown/layout-1.php:13
+#: elements/templates/pxl_countdown/layout-2.php:13
+#: elements/templates/pxl_countdown/layout-3.php:13
+#: elements/templates/pxl_countdown/layout-4.php:13
+#: elements/templates/pxl_countdown/layout-5.php:13
+#: elements/templates/pxl_countdown_progress/layout-1.php:19
+#: woocommerce/_hook_archives.php:231
+msgid "Months"
+msgstr ""
+
+#: elements/templates/pxl_countdown/layout-1.php:14
+#: elements/templates/pxl_countdown/layout-2.php:14
+#: elements/templates/pxl_countdown/layout-3.php:14
+#: elements/templates/pxl_countdown/layout-4.php:14
+#: elements/templates/pxl_countdown/layout-5.php:14
+#: elements/templates/pxl_countdown_progress/layout-1.php:20
+#: elements/widgets/pxl_countdown.php:114
+#: elements/widgets/pxl_countdown_progress.php:98
+msgid "Day"
+msgstr ""
+
+#: elements/templates/pxl_countdown/layout-1.php:15
+#: elements/templates/pxl_countdown/layout-2.php:15
+#: elements/templates/pxl_countdown/layout-3.php:15
+#: elements/templates/pxl_countdown/layout-4.php:15
+#: elements/templates/pxl_countdown/layout-5.php:15
+#: elements/templates/pxl_countdown_progress/layout-1.php:21
+msgid "Days"
+msgstr ""
+
+#: elements/templates/pxl_countdown/layout-1.php:16
+#: elements/templates/pxl_countdown/layout-1.php:23
+#: elements/templates/pxl_countdown/layout-1.php:24
+#: elements/templates/pxl_countdown/layout-2.php:16
+#: elements/templates/pxl_countdown/layout-2.php:23
+#: elements/templates/pxl_countdown/layout-2.php:24
+#: elements/templates/pxl_countdown/layout-3.php:16
+#: elements/templates/pxl_countdown/layout-3.php:23
+#: elements/templates/pxl_countdown/layout-3.php:24
+#: elements/templates/pxl_countdown/layout-4.php:16
+#: elements/templates/pxl_countdown/layout-4.php:23
+#: elements/templates/pxl_countdown/layout-4.php:24
+#: elements/templates/pxl_countdown/layout-5.php:16
+#: elements/templates/pxl_countdown_progress/layout-1.php:22
+#: elements/widgets/pxl_countdown.php:124
+#: elements/widgets/pxl_countdown_progress.php:108
+msgid "Hour"
+msgstr ""
+
+#: elements/templates/pxl_countdown/layout-1.php:17
+#: elements/templates/pxl_countdown/layout-2.php:17
+#: elements/templates/pxl_countdown/layout-3.php:17
+#: elements/templates/pxl_countdown/layout-4.php:17
+#: elements/templates/pxl_countdown/layout-5.php:17
+#: elements/templates/pxl_countdown/layout-5.php:23
+#: elements/templates/pxl_countdown/layout-5.php:24
+#: elements/templates/pxl_countdown_progress/layout-1.php:23
+#: elements/templates/pxl_countdown_progress/layout-1.php:29
+#: elements/templates/pxl_countdown_progress/layout-1.php:30
+msgid "Hours"
+msgstr ""
+
+#: elements/templates/pxl_countdown/layout-1.php:18
+#: elements/templates/pxl_countdown/layout-2.php:18
+#: elements/templates/pxl_countdown/layout-3.php:18
+#: elements/templates/pxl_countdown/layout-4.php:18
+#: elements/templates/pxl_countdown/layout-5.php:18
+#: elements/templates/pxl_countdown_progress/layout-1.php:24
+#: elements/widgets/pxl_countdown.php:134
+#: elements/widgets/pxl_countdown_progress.php:118
+msgid "Minute"
+msgstr ""
+
+#: elements/templates/pxl_countdown/layout-1.php:19
+#: elements/templates/pxl_countdown/layout-2.php:19
+#: elements/templates/pxl_countdown/layout-3.php:19
+#: elements/templates/pxl_countdown/layout-4.php:19
+#: elements/templates/pxl_countdown/layout-5.php:19
+#: elements/templates/pxl_countdown_progress/layout-1.php:25
+msgid "Minutes"
+msgstr ""
+
+#: elements/templates/pxl_countdown/layout-1.php:20
+#: elements/templates/pxl_countdown/layout-2.php:20
+#: elements/templates/pxl_countdown/layout-3.php:20
+#: elements/templates/pxl_countdown/layout-4.php:20
+#: elements/templates/pxl_countdown/layout-5.php:20
+#: elements/templates/pxl_countdown_progress/layout-1.php:26
+#: elements/widgets/pxl_countdown.php:144
+#: elements/widgets/pxl_countdown_progress.php:128
+msgid "Second"
+msgstr ""
+
+#: elements/templates/pxl_countdown/layout-1.php:21
+#: elements/templates/pxl_countdown/layout-2.php:21
+#: elements/templates/pxl_countdown/layout-3.php:21
+#: elements/templates/pxl_countdown/layout-4.php:21
+#: elements/templates/pxl_countdown/layout-5.php:21
+#: elements/templates/pxl_countdown_progress/layout-1.php:27
+msgid "Seconds"
+msgstr ""
+
+#: elements/templates/pxl_countdown/layout-1.php:25
+#: elements/templates/pxl_countdown/layout-1.php:26
+#: elements/templates/pxl_countdown/layout-2.php:25
+#: elements/templates/pxl_countdown/layout-2.php:26
+#: elements/templates/pxl_countdown/layout-3.php:25
+#: elements/templates/pxl_countdown/layout-3.php:26
+#: elements/templates/pxl_countdown/layout-4.php:25
+#: elements/templates/pxl_countdown/layout-4.php:26
+msgid "Min"
+msgstr ""
+
+#: elements/templates/pxl_countdown/layout-1.php:27
+#: elements/templates/pxl_countdown/layout-1.php:28
+#: elements/templates/pxl_countdown/layout-2.php:27
+#: elements/templates/pxl_countdown/layout-2.php:28
+#: elements/templates/pxl_countdown/layout-3.php:27
+#: elements/templates/pxl_countdown/layout-3.php:28
+#: elements/templates/pxl_countdown/layout-4.php:27
+#: elements/templates/pxl_countdown/layout-4.php:28
+msgid "Sec"
+msgstr ""
+
+#: elements/templates/pxl_countdown/layout-5.php:25
+#: elements/templates/pxl_countdown/layout-5.php:26
+#: elements/templates/pxl_countdown_progress/layout-1.php:31
+#: elements/templates/pxl_countdown_progress/layout-1.php:32
+msgid "Mins"
+msgstr ""
+
+#: elements/templates/pxl_countdown/layout-5.php:27
+#: elements/templates/pxl_countdown/layout-5.php:28
+#: elements/templates/pxl_countdown_progress/layout-1.php:33
+#: elements/templates/pxl_countdown_progress/layout-1.php:34
+msgid "Secs"
+msgstr ""
+
+#: elements/templates/pxl_download/layout-1.php:21
+msgid "download"
+msgstr ""
+
+#: elements/templates/pxl_history_carousel/layout-2.php:51
+msgid "pr"
+msgstr ""
+
+#: elements/templates/pxl_icon_search/layout-1.php:14
+msgid "Type Your Questions Here"
+msgstr ""
+
+#: elements/templates/pxl_icon_search/layout-1.php:28
+#: elements/templates/pxl_icon_search/layout-1.php:35
+msgid "Search Items Here..."
+msgstr ""
+
+#: elements/templates/pxl_icon_user/layout-1.php:30
+msgid "Sign up"
+msgstr ""
+
+#: elements/templates/pxl_icon_user/layout-1.php:35
+#: elements/templates/pxl_icon_user/layout-1.php:36
+#: elements/templates/pxl_icon_user/layout-1.php:52
+#: elements/templates/pxl_icon_user/layout-1.php:53
+msgid "404 Error"
+msgstr ""
+
+#: elements/templates/pxl_icon_user/layout-1.php:47
+msgid "Sign in"
+msgstr ""
+
+#: elements/templates/pxl_image_box/layout-1.php:36
+#: elements/templates/pxl_video_player/layout-1.php:33
+msgid "play"
+msgstr ""
+
+#: elements/templates/pxl_post_carousel/layout-post-3.php:119
+msgid "Read More"
+msgstr ""
+
+#: elements/templates/pxl_post_grid/layout-post-1.php:117
+#: elements/templates/pxl_post_grid/layout-post-2.php:116
+#: elements/templates/pxl_post_grid/layout-post-3.php:117
+#: elements/widgets/pxl_product_grid.php:180
+msgid "Load More"
+msgstr ""
+
+#: elements/templates/pxl_product_grid/layout-1.php:29
+msgid "◄ ►"
+msgstr ""
+
+#: elements/templates/pxl_product_grid/layout-1.php:75
+msgid "No Post Found"
+msgstr ""
+
+#: elements/templates/pxl_product_grid/layout-1.php:97
+msgid "Default sorting"
+msgstr ""
+
+#: elements/templates/pxl_product_grid/layout-1.php:98
+msgid "Sort by popularity"
+msgstr ""
+
+#: elements/templates/pxl_product_grid/layout-1.php:99
+msgid "Sort by average rating"
+msgstr ""
+
+#: elements/templates/pxl_product_grid/layout-1.php:100
+msgid "Sort by latest"
+msgstr ""
+
+#: elements/templates/pxl_product_grid/layout-1.php:101
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: elements/templates/pxl_product_grid/layout-1.php:102
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: elements/templates/pxl_product_grid/layout-1.php:114
+#: elements/widgets/pxl_product_grid.php:105
+msgid "Search"
+msgstr ""
+
+#: elements/templates/pxl_product_grid/layout-1.php:218
+msgid "Loading"
+msgstr ""
+
+#: elements/templates/pxl_team_single/layout-1.php:7
+msgid "bd1"
+msgstr ""
+
+#: elements/templates/pxl_team_single/layout-1.php:10
+msgid "bd2"
+msgstr ""
+
+#: elements/templates/pxl_team_single/layout-1.php:13
+msgid "bd3"
+msgstr ""
+
+#: elements/templates/pxl_team_single/layout-1.php:16
+msgid "bd4"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:5
+msgid "TN Accordion"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:17 elements/widgets/pxl_accordion.php:53
+#: elements/widgets/pxl_accordion.php:150 elements/widgets/pxl_button.php:12
+#: elements/widgets/pxl_client_carousel.php:41
+#: elements/widgets/pxl_collection_carousel.php:38
+#: elements/widgets/pxl_contact_form.php:24 elements/widgets/pxl_countdown.php:50
+#: elements/widgets/pxl_countdown_progress.php:34
+#: elements/widgets/pxl_counter.php:46 elements/widgets/pxl_download.php:40
+#: elements/widgets/pxl_heading.php:12 elements/widgets/pxl_hidden_sidebar.php:14
+#: elements/widgets/pxl_history.php:44 elements/widgets/pxl_history.php:114
+#: elements/widgets/pxl_history_carousel.php:50
+#: elements/widgets/pxl_history_carousel.php:123 elements/widgets/pxl_icon.php:12
+#: elements/widgets/pxl_icon_box.php:64 elements/widgets/pxl_icon_search.php:13
+#: elements/widgets/pxl_image.php:15 elements/widgets/pxl_image_box.php:40
+#: elements/widgets/pxl_image_carousel.php:42
+#: elements/widgets/pxl_image_carousel.php:47 elements/widgets/pxl_image_grid.php:36
+#: elements/widgets/pxl_link.php:12 elements/widgets/pxl_logo.php:13
+#: elements/widgets/pxl_menu.php:25 elements/widgets/pxl_meta_box_carousel.php:37
+#: elements/widgets/pxl_meta_box_carousel.php:80 elements/widgets/pxl_pricing.php:43
+#: elements/widgets/pxl_progressbar.php:44 elements/widgets/pxl_progressbar.php:95
+#: elements/widgets/pxl_showcase.php:32 elements/widgets/pxl_slider.php:19
+#: elements/widgets/pxl_tabs.php:59 elements/widgets/pxl_tabs.php:86
+#: elements/widgets/pxl_team_carousel.php:62 elements/widgets/pxl_team_grid.php:36
+#: elements/widgets/pxl_testimonial_carousel.php:39
+#: elements/widgets/pxl_text_carousel.php:38 elements/widgets/pxl_token.php:18
+#: elements/widgets/pxl_video_player.php:13
+#: elements/widgets/pxl_video_player.php:190
+#: inc/admin/libs/merlin/class-merlin.php:779
+#: inc/admin/libs/merlin/class-merlin.php:2031 inc/admin/views/admin-demos.php:131
+#: inc/theme-options/page-options.php:52 inc/theme-options/page-options.php:135
+#: inc/theme-options/page-options.php:227
+msgid "Content"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:22 elements/widgets/pxl_arrow_carousel.php:24
+#: elements/widgets/pxl_breadcrumb.php:12
+#: elements/widgets/pxl_collection_carousel.php:43
+#: elements/widgets/pxl_contact_form.php:235 elements/widgets/pxl_countdown.php:154
+#: elements/widgets/pxl_countdown_progress.php:138
+#: elements/widgets/pxl_counter.php:136 elements/widgets/pxl_heading.php:174
+#: elements/widgets/pxl_heading.php:288 elements/widgets/pxl_heading.php:331
+#: elements/widgets/pxl_hidden_sidebar.php:81 elements/widgets/pxl_history.php:165
+#: elements/widgets/pxl_icon.php:120 elements/widgets/pxl_icon.php:125
+#: elements/widgets/pxl_icon_box.php:161 elements/widgets/pxl_icon_box.php:252
+#: elements/widgets/pxl_icon_search.php:63 elements/widgets/pxl_image_box.php:45
+#: elements/widgets/pxl_image_carousel.php:67 elements/widgets/pxl_image_grid.php:41
+#: elements/widgets/pxl_link.php:17 elements/widgets/pxl_link.php:154
+#: elements/widgets/pxl_logo.php:18 elements/widgets/pxl_logo.php:48
+#: elements/widgets/pxl_menu.php:66 elements/widgets/pxl_meta_box_carousel.php:91
+#: elements/widgets/pxl_post_carousel.php:275 elements/widgets/pxl_pricing.php:180
+#: elements/widgets/pxl_showcase.php:117 elements/widgets/pxl_slider.php:24
+#: elements/widgets/pxl_tabs.php:106 elements/widgets/pxl_tabs.php:112
+#: elements/widgets/pxl_team_carousel.php:110 elements/widgets/pxl_team_grid.php:203
+#: elements/widgets/pxl_testimonial_carousel.php:90
+msgid "Style"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:35 elements/widgets/pxl_history.php:80
+#: elements/widgets/pxl_history.php:85 elements/widgets/pxl_history_carousel.php:55
+#: elements/widgets/pxl_history_carousel.php:95
+#: elements/widgets/pxl_history_carousel.php:100
+#: elements/widgets/pxl_history_carousel.php:128
+#: elements/widgets/pxl_history_carousel.php:133 elements/widgets/pxl_pricing.php:96
+#: elements/widgets/pxl_pricing.php:132 elements/widgets/pxl_showcase.php:94
+#: elements/widgets/pxl_showcase.php:99
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2413
+msgid "Active"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:42
+msgid "Accordion"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:47 elements/widgets/pxl_accordion.php:65
+#: elements/widgets/pxl_arrow_carousel.php:18 elements/widgets/pxl_chart.php:62
+#: elements/widgets/pxl_countdown.php:55
+#: elements/widgets/pxl_countdown_progress.php:39
+#: elements/widgets/pxl_countdown_progress.php:190
+#: elements/widgets/pxl_counter.php:51 elements/widgets/pxl_counter.php:151
+#: elements/widgets/pxl_download.php:45 elements/widgets/pxl_heading.php:27
+#: elements/widgets/pxl_heading.php:127 elements/widgets/pxl_history.php:68
+#: elements/widgets/pxl_history.php:133 elements/widgets/pxl_history_carousel.php:82
+#: elements/widgets/pxl_icon_box.php:110 elements/widgets/pxl_icon_box.php:192
+#: elements/widgets/pxl_image_box.php:78 elements/widgets/pxl_image_box.php:107
+#: elements/widgets/pxl_meta_box_carousel.php:74
+#: elements/widgets/pxl_post_carousel.php:63 elements/widgets/pxl_post_grid.php:64
+#: elements/widgets/pxl_pricing.php:65 elements/widgets/pxl_product_carousel.php:55
+#: elements/widgets/pxl_product_carousel.php:276
+#: elements/widgets/pxl_progressbar.php:57 elements/widgets/pxl_progressbar.php:114
+#: elements/widgets/pxl_progressbar.php:177 elements/widgets/pxl_showcase.php:66
+#: elements/widgets/pxl_tabs.php:70 elements/widgets/pxl_team_single.php:42
+#: elements/widgets/pxl_testimonial_carousel.php:62
+#: elements/widgets/pxl_text_carousel.php:48
+#: elements/widgets/pxl_text_carousel.php:60 elements/widgets/pxl_token.php:40
+#: template-parts/widgets/banner-box.php:109
+msgid "Title"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:70
+msgid "Style Arrow"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:80 elements/widgets/pxl_accordion.php:262
+#: elements/widgets/pxl_button.php:99 elements/widgets/pxl_button.php:329
+#: elements/widgets/pxl_chart.php:72
+#: elements/widgets/pxl_collection_carousel.php:208
+#: elements/widgets/pxl_contact_form.php:72
+#: elements/widgets/pxl_countdown_progress.php:425
+#: elements/widgets/pxl_counter.php:156 elements/widgets/pxl_counter.php:177
+#: elements/widgets/pxl_counter.php:201 elements/widgets/pxl_counter.php:264
+#: elements/widgets/pxl_heading.php:246 elements/widgets/pxl_icon.php:55
+#: elements/widgets/pxl_icon.php:151 elements/widgets/pxl_icon_box.php:317
+#: elements/widgets/pxl_link.php:96 elements/widgets/pxl_link.php:189
+#: elements/widgets/pxl_menu.php:76 elements/widgets/pxl_menu.php:205
+#: elements/widgets/pxl_testimonial_carousel.php:98
+#: elements/widgets/pxl_testimonial_carousel.php:113
+#: elements/widgets/pxl_testimonial_carousel.php:128
+#: elements/widgets/pxl_text_carousel.php:66 elements/widgets/pxl_text_editor.php:76
+#: elements/widgets/pxl_text_editor.php:109
+msgid "Color"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:88 elements/widgets/pxl_menu.php:92
+msgid "Color Active"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:97
+#: elements/widgets/pxl_collection_carousel.php:140
+#: elements/widgets/pxl_hidden_sidebar.php:33 elements/widgets/pxl_icon_box.php:361
+#: elements/widgets/pxl_icon_search.php:24 elements/widgets/pxl_image_box.php:112
+msgid "Icon Color"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:107
+#: elements/widgets/pxl_collection_carousel.php:132
+#: elements/widgets/pxl_icon_box.php:405 elements/widgets/pxl_link.php:51
+msgid "Background Icon Color"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:115
+msgid "Background Icon Gradient Color"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:124 elements/widgets/pxl_accordion.php:271
+#: elements/widgets/pxl_button.php:198
+#: elements/widgets/pxl_collection_carousel.php:187
+#: elements/widgets/pxl_collection_carousel.php:216
+#: elements/widgets/pxl_contact_form.php:42 elements/widgets/pxl_heading.php:157
+#: elements/widgets/pxl_heading.php:265 elements/widgets/pxl_link.php:121
+#: elements/widgets/pxl_menu.php:100 elements/widgets/pxl_menu.php:237
+#: elements/widgets/pxl_testimonial_carousel.php:106
+#: elements/widgets/pxl_testimonial_carousel.php:121
+#: elements/widgets/pxl_testimonial_carousel.php:136
+#: elements/widgets/pxl_text_carousel.php:74 elements/widgets/pxl_text_editor.php:86
+#: elements/widgets/pxl_text_editor.php:128 inc/theme-options/theme-options.php:462
+msgid "Typography"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:131 elements/widgets/pxl_heading.php:132
+#: elements/widgets/pxl_icon_box.php:197 elements/widgets/pxl_image_box.php:120
+msgid "HTML Tag"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:155 elements/widgets/pxl_button.php:215
+#: elements/widgets/pxl_contact_form.php:130 elements/widgets/pxl_icon.php:284
+msgid "Border Type"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:159 elements/widgets/pxl_button.php:219
+#: elements/widgets/pxl_contact_form.php:134 elements/widgets/pxl_icon.php:288
+msgid "Solid"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:160 elements/widgets/pxl_button.php:220
+#: elements/widgets/pxl_contact_form.php:135 elements/widgets/pxl_icon.php:289
+msgid "Double"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:161 elements/widgets/pxl_button.php:221
+#: elements/widgets/pxl_contact_form.php:136 elements/widgets/pxl_icon.php:290
+msgid "Dotted"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:162 elements/widgets/pxl_button.php:222
+#: elements/widgets/pxl_contact_form.php:137 elements/widgets/pxl_icon.php:291
+msgid "Dashed"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:163 elements/widgets/pxl_button.php:223
+#: elements/widgets/pxl_contact_form.php:138 elements/widgets/pxl_icon.php:292
+msgid "Groove"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:171 elements/widgets/pxl_button.php:142
+#: elements/widgets/pxl_button.php:234 elements/widgets/pxl_contact_form.php:146
+#: elements/widgets/pxl_icon.php:303
+msgid "Border Width"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:183 elements/widgets/pxl_accordion.php:213
+#: elements/widgets/pxl_button.php:120 elements/widgets/pxl_button.php:246
+#: elements/widgets/pxl_contact_form.php:158 elements/widgets/pxl_icon.php:316
+msgid "Border Color"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:195 elements/widgets/pxl_button.php:258
+#: elements/widgets/pxl_contact_form.php:114
+#: elements/widgets/pxl_contact_form.php:301 elements/widgets/pxl_heading.php:373
+#: elements/widgets/pxl_icon.php:271 elements/widgets/pxl_icon_box.php:478
+#: elements/widgets/pxl_icon_search.php:76 elements/widgets/pxl_image.php:146
+msgid "Border Radius"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:204
+msgid "Space"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:221
+msgid "Border Color Active"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:229 elements/widgets/pxl_breadcrumb.php:32
+msgid "Arrow Color"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:238
+msgid "Arrow Color Active"
+msgstr ""
+
+#: elements/widgets/pxl_accordion.php:254
+msgid "Background Color Active"
+msgstr ""
+
+#: elements/widgets/pxl_arrow_carousel.php:5
+msgid "TN Nav Carousel"
+msgstr ""
+
+#: elements/widgets/pxl_arrow_carousel.php:13
+msgid "Content Alignment"
+msgstr ""
+
+#: elements/widgets/pxl_breadcrumb.php:5
+msgid "TN Breadcrumb"
+msgstr ""
+
+#: elements/widgets/pxl_breadcrumb.php:17
+msgid "Text Color"
+msgstr ""
+
+#: elements/widgets/pxl_breadcrumb.php:25
+msgid "Text Typography"
+msgstr ""
+
+#: elements/widgets/pxl_breadcrumb.php:40
+msgid "Active Color"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:5
+msgid "Case Button"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:17
+#: elements/widgets/pxl_countdown_progress.php:392 elements/widgets/pxl_icon.php:22
+#: elements/widgets/pxl_token.php:23
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2640
+#: inc/theme-options/page-options.php:278
+msgid "Type"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:22
+msgid "Gradient"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:23
+msgid "Shape"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:24
+msgid "White Shadow"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:25
+msgid "Icon Box 1"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:26
+msgid "Icon Box 2"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:31 elements/widgets/pxl_heading.php:100
+#: elements/widgets/pxl_link.php:33 elements/widgets/pxl_pricing.php:90
+#: elements/widgets/pxl_pricing.php:126 elements/widgets/pxl_text_carousel.php:43
+#: elements/widgets/pxl_text_editor.php:71
+msgid "Text"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:33
+msgid "Click Here"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:37
+#: elements/widgets/pxl_collection_carousel.php:104
+#: elements/widgets/pxl_countdown_progress.php:419
+#: elements/widgets/pxl_download.php:61 elements/widgets/pxl_icon.php:49
+#: elements/widgets/pxl_icon_box.php:139 elements/widgets/pxl_image.php:25
+#: elements/widgets/pxl_image_box.php:97 elements/widgets/pxl_image_carousel.php:57
+#: elements/widgets/pxl_link.php:27 elements/widgets/pxl_link.php:39
+#: elements/widgets/pxl_link.php:64 elements/widgets/pxl_logo.php:41
+#: elements/widgets/pxl_slider.php:96 elements/widgets/pxl_team_carousel.php:94
+#: elements/widgets/pxl_team_grid.php:83 elements/widgets/pxl_team_single.php:69
+#: elements/widgets/pxl_text_editor.php:104 elements/widgets/pxl_video_player.php:18
+msgid "Link"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:45 elements/widgets/pxl_countdown.php:165
+#: elements/widgets/pxl_countdown_progress.php:149
+#: elements/widgets/pxl_heading.php:43 elements/widgets/pxl_history.php:186
+#: elements/widgets/pxl_icon.php:94 elements/widgets/pxl_link.php:69
+#: elements/widgets/pxl_logo.php:53 elements/widgets/pxl_menu.php:36
+#: elements/widgets/pxl_text_editor.php:26
+msgid "Alignment"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:62 elements/widgets/pxl_countdown.php:85
+#: elements/widgets/pxl_countdown_progress.php:69
+#: elements/widgets/pxl_heading.php:60 elements/widgets/pxl_history.php:203
+#: elements/widgets/pxl_link.php:86 elements/widgets/pxl_text_editor.php:43
+msgid "Justified"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:74 elements/widgets/pxl_button.php:324
+#: elements/widgets/pxl_countdown_progress.php:410
+#: elements/widgets/pxl_counter.php:118 elements/widgets/pxl_counter.php:196
+#: elements/widgets/pxl_hidden_sidebar.php:26 elements/widgets/pxl_icon.php:40
+#: elements/widgets/pxl_icon_box.php:82 elements/widgets/pxl_icon_box.php:344
+#: elements/widgets/pxl_icon_search.php:18 elements/widgets/pxl_link.php:45
+#: elements/widgets/pxl_link.php:184 elements/widgets/pxl_slider.php:90
+#: elements/widgets/pxl_slider.php:114
+msgid "Icon"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:81
+msgid "Icon Position"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:85
+msgid "Before"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:86
+msgid "After"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:94
+msgid "Button Normal"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:161
+#: elements/widgets/pxl_countdown_progress.php:356
+#: elements/widgets/pxl_heading.php:299 elements/widgets/pxl_icon.php:342
+#: elements/widgets/pxl_progressbar.php:302
+msgid "Background Type"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:173
+msgid "Background Color - From"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:185
+msgid "Background Color - To"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:205 elements/widgets/pxl_button.php:311
+#: elements/widgets/pxl_contact_form.php:123
+#: elements/widgets/pxl_contact_form.php:310 elements/widgets/pxl_image.php:155
+msgid "Box Shadow"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:270 elements/widgets/pxl_contact_form.php:291
+#: elements/widgets/pxl_heading.php:363
+msgid "Padding"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:286
+msgid "Button Hover"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:291 elements/widgets/pxl_icon_box.php:326
+#: elements/widgets/pxl_link.php:113 elements/widgets/pxl_menu.php:84
+#: elements/widgets/pxl_text_editor.php:118
+msgid "Color Hover"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:340 elements/widgets/pxl_icon.php:195
+#: elements/widgets/pxl_link.php:213
+msgid "Font Size"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:359 elements/widgets/pxl_button.php:382
+msgid "Icon Spacer"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:405
+msgid "Box Color - From"
+msgstr ""
+
+#: elements/widgets/pxl_button.php:417
+msgid "Box Color - To"
+msgstr ""
+
+#: elements/widgets/pxl_chart.php:5
+msgid "TN Chart"
+msgstr ""
+
+#: elements/widgets/pxl_chart.php:16 elements/widgets/pxl_client_carousel.php:18
+#: elements/widgets/pxl_collection_carousel.php:19
+#: elements/widgets/pxl_countdown.php:15
+#: elements/widgets/pxl_countdown_progress.php:15
+#: elements/widgets/pxl_counter.php:19 elements/widgets/pxl_download.php:13
+#: elements/widgets/pxl_history.php:12 elements/widgets/pxl_history_carousel.php:19
+#: elements/widgets/pxl_icon_box.php:13 elements/widgets/pxl_image_box.php:13
+#: elements/widgets/pxl_image_carousel.php:19 elements/widgets/pxl_image_grid.php:17
+#: elements/widgets/pxl_meta_box_carousel.php:18
+#: elements/widgets/pxl_post_carousel.php:17 elements/widgets/pxl_post_grid.php:18
+#: elements/widgets/pxl_pricing.php:12 elements/widgets/pxl_product_carousel.php:17
+#: elements/widgets/pxl_product_grid.php:19 elements/widgets/pxl_progressbar.php:17
+#: elements/widgets/pxl_showcase.php:13 elements/widgets/pxl_tabs.php:16
+#: elements/widgets/pxl_team_carousel.php:19 elements/widgets/pxl_team_grid.php:17
+#: elements/widgets/pxl_testimonial_carousel.php:19
+#: elements/widgets/pxl_text_carousel.php:19
+msgid "Layout"
+msgstr ""
+
+#: elements/widgets/pxl_chart.php:21 elements/widgets/pxl_client_carousel.php:23
+#: elements/widgets/pxl_collection_carousel.php:24
+#: elements/widgets/pxl_countdown.php:20
+#: elements/widgets/pxl_countdown_progress.php:20
+#: elements/widgets/pxl_counter.php:24 elements/widgets/pxl_download.php:18
+#: elements/widgets/pxl_history.php:17 elements/widgets/pxl_history_carousel.php:24
+#: elements/widgets/pxl_icon_box.php:18 elements/widgets/pxl_image_box.php:18
+#: elements/widgets/pxl_image_carousel.php:24 elements/widgets/pxl_image_grid.php:22
+#: elements/widgets/pxl_meta_box_carousel.php:23 elements/widgets/pxl_pricing.php:17
+#: elements/widgets/pxl_product_carousel.php:22
+#: elements/widgets/pxl_product_grid.php:24 elements/widgets/pxl_progressbar.php:22
+#: elements/widgets/pxl_showcase.php:18 elements/widgets/pxl_tabs.php:21
+#: elements/widgets/pxl_team_carousel.php:24 elements/widgets/pxl_team_grid.php:22
+#: elements/widgets/pxl_testimonial_carousel.php:24
+#: elements/widgets/pxl_text_carousel.php:24 inc/admin/admin-templates.php:15
+#: inc/admin/admin-templates.php:16
+msgid "Templates"
+msgstr ""
+
+#: elements/widgets/pxl_chart.php:43
+msgid "Chart Content"
+msgstr ""
+
+#: elements/widgets/pxl_chart.php:49 elements/widgets/pxl_icon_user.php:26
+msgid "Title Box"
+msgstr ""
+
+#: elements/widgets/pxl_chart.php:57
+msgid "Chart Items"
+msgstr ""
+
+#: elements/widgets/pxl_chart.php:67
+msgid "Value"
+msgstr ""
+
+#: elements/widgets/pxl_chart.php:113
+msgid "Style Settings"
+msgstr ""
+
+#: elements/widgets/pxl_chart.php:118
+msgid "Chart Type"
+msgstr ""
+
+#: elements/widgets/pxl_chart.php:121
+msgid "Doughnut"
+msgstr ""
+
+#: elements/widgets/pxl_chart.php:122
+msgid "Pie"
+msgstr ""
+
+#: elements/widgets/pxl_chart.php:128
+msgid "Chart Dimensions"
+msgstr ""
+
+#: elements/widgets/pxl_chart.php:149 elements/widgets/pxl_counter.php:209
+#: elements/widgets/pxl_hidden_sidebar.php:91 elements/widgets/pxl_icon.php:169
+#: elements/widgets/pxl_icon_box.php:214 elements/widgets/pxl_icon_search.php:85
+#: elements/widgets/pxl_pricing.php:193
+msgid "Box Color"
+msgstr ""
+
+#: elements/widgets/pxl_chart.php:157
+msgid "Cutout"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:7
+msgid "TN Client Carousel"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:46
+msgid "Client"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:51 elements/widgets/pxl_logo.php:28
+msgid "Logo"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:62
+#: elements/widgets/pxl_collection_carousel.php:225
+#: elements/widgets/pxl_history_carousel.php:143
+#: elements/widgets/pxl_meta_box_carousel.php:199
+#: elements/widgets/pxl_slider.php:128
+#: elements/widgets/pxl_testimonial_carousel.php:145
+#: elements/widgets/pxl_text_carousel.php:83 inc/admin/views/admin-demos.php:161
+#: inc/theme-functions.php:498
+msgid "Settings"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:67
+#: elements/widgets/pxl_collection_carousel.php:230
+#: elements/widgets/pxl_history_carousel.php:156
+#: elements/widgets/pxl_image_carousel.php:115
+#: elements/widgets/pxl_image_grid.php:79 elements/widgets/pxl_image_grid.php:150
+#: elements/widgets/pxl_meta_box_carousel.php:210
+#: elements/widgets/pxl_post_carousel.php:100 elements/widgets/pxl_post_grid.php:190
+#: elements/widgets/pxl_post_grid.php:261
+#: elements/widgets/pxl_product_carousel.php:90
+#: elements/widgets/pxl_team_carousel.php:158
+#: elements/widgets/pxl_testimonial_carousel.php:150
+#: elements/widgets/pxl_text_carousel.php:88 elements/widgets/pxl_token.php:68
+msgid "Columns XS Devices"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:81
+#: elements/widgets/pxl_collection_carousel.php:244
+#: elements/widgets/pxl_history_carousel.php:171
+#: elements/widgets/pxl_image_carousel.php:128
+#: elements/widgets/pxl_image_grid.php:92 elements/widgets/pxl_image_grid.php:164
+#: elements/widgets/pxl_meta_box_carousel.php:224
+#: elements/widgets/pxl_post_carousel.php:114 elements/widgets/pxl_post_grid.php:203
+#: elements/widgets/pxl_post_grid.php:275
+#: elements/widgets/pxl_product_carousel.php:103
+#: elements/widgets/pxl_team_carousel.php:172
+#: elements/widgets/pxl_testimonial_carousel.php:164
+#: elements/widgets/pxl_text_carousel.php:102 elements/widgets/pxl_token.php:81
+msgid "Columns SM Devices"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:95
+#: elements/widgets/pxl_collection_carousel.php:258
+#: elements/widgets/pxl_history_carousel.php:186
+#: elements/widgets/pxl_image_carousel.php:141
+#: elements/widgets/pxl_image_grid.php:105 elements/widgets/pxl_image_grid.php:178
+#: elements/widgets/pxl_meta_box_carousel.php:238
+#: elements/widgets/pxl_post_carousel.php:128 elements/widgets/pxl_post_grid.php:216
+#: elements/widgets/pxl_post_grid.php:289
+#: elements/widgets/pxl_product_carousel.php:116
+#: elements/widgets/pxl_team_carousel.php:186
+#: elements/widgets/pxl_testimonial_carousel.php:178
+#: elements/widgets/pxl_text_carousel.php:116 elements/widgets/pxl_token.php:94
+msgid "Columns MD Devices"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:109
+#: elements/widgets/pxl_collection_carousel.php:272
+#: elements/widgets/pxl_history_carousel.php:201
+#: elements/widgets/pxl_image_carousel.php:154
+#: elements/widgets/pxl_image_grid.php:118 elements/widgets/pxl_image_grid.php:192
+#: elements/widgets/pxl_meta_box_carousel.php:252
+#: elements/widgets/pxl_post_carousel.php:142 elements/widgets/pxl_post_grid.php:229
+#: elements/widgets/pxl_post_grid.php:303
+#: elements/widgets/pxl_product_carousel.php:129
+#: elements/widgets/pxl_team_carousel.php:200
+#: elements/widgets/pxl_testimonial_carousel.php:192
+#: elements/widgets/pxl_text_carousel.php:130 elements/widgets/pxl_token.php:107
+msgid "Columns LG Devices"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:123
+#: elements/widgets/pxl_collection_carousel.php:286
+#: elements/widgets/pxl_history_carousel.php:216
+#: elements/widgets/pxl_image_carousel.php:167
+#: elements/widgets/pxl_image_grid.php:131 elements/widgets/pxl_image_grid.php:206
+#: elements/widgets/pxl_meta_box_carousel.php:266
+#: elements/widgets/pxl_post_carousel.php:157 elements/widgets/pxl_post_grid.php:242
+#: elements/widgets/pxl_post_grid.php:317
+#: elements/widgets/pxl_product_carousel.php:143
+#: elements/widgets/pxl_team_carousel.php:214
+#: elements/widgets/pxl_testimonial_carousel.php:206
+#: elements/widgets/pxl_text_carousel.php:144 elements/widgets/pxl_token.php:120
+msgid "Columns XL Devices"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:139
+#: elements/widgets/pxl_collection_carousel.php:301
+#: elements/widgets/pxl_history_carousel.php:232
+#: elements/widgets/pxl_image_carousel.php:181
+#: elements/widgets/pxl_meta_box_carousel.php:281
+#: elements/widgets/pxl_post_carousel.php:172
+#: elements/widgets/pxl_product_carousel.php:157
+#: elements/widgets/pxl_team_carousel.php:229
+#: elements/widgets/pxl_testimonial_carousel.php:221
+#: elements/widgets/pxl_text_carousel.php:159
+msgid "Columns XXL Devices"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:156
+#: elements/widgets/pxl_collection_carousel.php:317
+#: elements/widgets/pxl_history_carousel.php:249
+#: elements/widgets/pxl_image_carousel.php:197
+#: elements/widgets/pxl_meta_box_carousel.php:296
+#: elements/widgets/pxl_post_carousel.php:188
+#: elements/widgets/pxl_product_carousel.php:172
+#: elements/widgets/pxl_team_carousel.php:246
+#: elements/widgets/pxl_testimonial_carousel.php:236
+#: elements/widgets/pxl_text_carousel.php:175
+msgid "Slides to scroll"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:171
+#: elements/widgets/pxl_collection_carousel.php:331
+#: elements/widgets/pxl_history_carousel.php:264
+#: elements/widgets/pxl_image_carousel.php:211
+#: elements/widgets/pxl_meta_box_carousel.php:327
+#: elements/widgets/pxl_post_carousel.php:202
+#: elements/widgets/pxl_product_carousel.php:203 elements/widgets/pxl_slider.php:133
+#: elements/widgets/pxl_team_carousel.php:261
+#: elements/widgets/pxl_testimonial_carousel.php:250
+#: elements/widgets/pxl_text_carousel.php:189
+msgid "Show Arrows"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:176
+#: elements/widgets/pxl_collection_carousel.php:336
+#: elements/widgets/pxl_history_carousel.php:269
+#: elements/widgets/pxl_meta_box_carousel.php:332
+#: elements/widgets/pxl_post_carousel.php:208
+#: elements/widgets/pxl_product_carousel.php:209 elements/widgets/pxl_slider.php:138
+#: elements/widgets/pxl_testimonial_carousel.php:256
+#: elements/widgets/pxl_text_carousel.php:194
+msgid "Show Pagination"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:182
+#: elements/widgets/pxl_collection_carousel.php:342
+#: elements/widgets/pxl_history_carousel.php:275
+#: elements/widgets/pxl_meta_box_carousel.php:338
+#: elements/widgets/pxl_post_carousel.php:214 elements/widgets/pxl_post_grid.php:157
+#: elements/widgets/pxl_product_carousel.php:215
+#: elements/widgets/pxl_product_grid.php:167 elements/widgets/pxl_slider.php:144
+#: elements/widgets/pxl_testimonial_carousel.php:262
+#: elements/widgets/pxl_text_carousel.php:200
+msgid "Pagination Type"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:195
+#: elements/widgets/pxl_collection_carousel.php:366
+#: elements/widgets/pxl_history_carousel.php:288
+#: elements/widgets/pxl_image_carousel.php:221
+#: elements/widgets/pxl_meta_box_carousel.php:377
+#: elements/widgets/pxl_post_carousel.php:229
+#: elements/widgets/pxl_product_carousel.php:228 elements/widgets/pxl_slider.php:157
+#: elements/widgets/pxl_team_carousel.php:271
+#: elements/widgets/pxl_testimonial_carousel.php:300
+#: elements/widgets/pxl_text_carousel.php:213
+msgid "Pause on Hover"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:200
+#: elements/widgets/pxl_collection_carousel.php:376
+#: elements/widgets/pxl_history_carousel.php:298
+#: elements/widgets/pxl_image_carousel.php:226
+#: elements/widgets/pxl_meta_box_carousel.php:382
+#: elements/widgets/pxl_post_carousel.php:235
+#: elements/widgets/pxl_product_carousel.php:234 elements/widgets/pxl_slider.php:162
+#: elements/widgets/pxl_team_carousel.php:276
+#: elements/widgets/pxl_testimonial_carousel.php:305
+#: elements/widgets/pxl_text_carousel.php:218
+msgid "Autoplay"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:205
+#: elements/widgets/pxl_collection_carousel.php:381
+#: elements/widgets/pxl_history_carousel.php:303
+#: elements/widgets/pxl_image_carousel.php:231
+#: elements/widgets/pxl_meta_box_carousel.php:387
+#: elements/widgets/pxl_product_carousel.php:240
+#: elements/widgets/pxl_team_carousel.php:281
+#: elements/widgets/pxl_testimonial_carousel.php:310
+#: elements/widgets/pxl_text_carousel.php:223
+msgid "Autoplay Speed"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:214
+#: elements/widgets/pxl_collection_carousel.php:390
+#: elements/widgets/pxl_history_carousel.php:312
+#: elements/widgets/pxl_image_carousel.php:240
+#: elements/widgets/pxl_meta_box_carousel.php:396
+#: elements/widgets/pxl_post_carousel.php:250
+#: elements/widgets/pxl_product_carousel.php:262 elements/widgets/pxl_slider.php:176
+#: elements/widgets/pxl_team_carousel.php:290
+#: elements/widgets/pxl_testimonial_carousel.php:319
+#: elements/widgets/pxl_text_carousel.php:232
+msgid "Infinite Loop"
+msgstr ""
+
+#: elements/widgets/pxl_client_carousel.php:219
+#: elements/widgets/pxl_collection_carousel.php:395
+#: elements/widgets/pxl_history_carousel.php:317
+#: elements/widgets/pxl_image_carousel.php:245
+#: elements/widgets/pxl_meta_box_carousel.php:401
+#: elements/widgets/pxl_post_carousel.php:256
+#: elements/widgets/pxl_product_carousel.php:268 elements/widgets/pxl_slider.php:181
+#: elements/widgets/pxl_team_carousel.php:295
+#: elements/widgets/pxl_testimonial_carousel.php:324
+#: elements/widgets/pxl_text_carousel.php:237
+msgid "Animation Speed"
+msgstr ""
+
+#: elements/widgets/pxl_collection_carousel.php:8
+msgid "TN Collection Carousel"
+msgstr ""
+
+#: elements/widgets/pxl_collection_carousel.php:57
+msgid "Height Image"
+msgstr ""
+
+#: elements/widgets/pxl_collection_carousel.php:77
+msgid "Collection"
+msgstr ""
+
+#: elements/widgets/pxl_collection_carousel.php:83
+msgid "Name Collection"
+msgstr ""
+
+#: elements/widgets/pxl_collection_carousel.php:89
+#: elements/widgets/pxl_collection_carousel.php:203
+#: elements/widgets/pxl_pricing.php:56
+msgid "Note"
+msgstr ""
+
+#: elements/widgets/pxl_collection_carousel.php:94
+msgid "Image Background"
+msgstr ""
+
+#: elements/widgets/pxl_collection_carousel.php:99
+msgid "Image Author"
+msgstr ""
+
+#: elements/widgets/pxl_collection_carousel.php:116
+#: elements/widgets/pxl_team_carousel.php:78 elements/widgets/pxl_team_grid.php:67
+#: elements/widgets/pxl_team_single.php:53
+msgid "Name"
+msgstr ""
+
+#: elements/widgets/pxl_collection_carousel.php:121
+msgid "Style Arrows"
+msgstr ""
+
+#: elements/widgets/pxl_collection_carousel.php:148
+#: elements/widgets/pxl_icon_box.php:372
+msgid "Background Icon Color Gradient"
+msgstr ""
+
+#: elements/widgets/pxl_collection_carousel.php:157
+msgid "Animation Hover"
+msgstr ""
+
+#: elements/widgets/pxl_collection_carousel.php:163
+msgid "Background Box Color"
+msgstr ""
+
+#: elements/widgets/pxl_collection_carousel.php:171
+#: elements/widgets/pxl_heading.php:149 elements/widgets/pxl_history.php:213
+#: elements/widgets/pxl_icon_box.php:224 elements/widgets/pxl_icon_user.php:31
+#: elements/widgets/pxl_image_box.php:137 elements/widgets/pxl_image_carousel.php:72
+#: elements/widgets/pxl_meta_box_carousel.php:96
+#: elements/widgets/pxl_pricing.php:201 elements/widgets/pxl_progressbar.php:182
+#: elements/widgets/pxl_showcase.php:310 elements/widgets/pxl_tabs.php:177
+#: elements/widgets/pxl_team_carousel.php:115 elements/widgets/pxl_team_grid.php:208
+msgid "Title Color"
+msgstr ""
+
+#: elements/widgets/pxl_collection_carousel.php:179
+#: elements/widgets/pxl_image_box.php:160 elements/widgets/pxl_team_grid.php:238
+msgid "Description Color"
+msgstr ""
+
+#: elements/widgets/pxl_collection_carousel.php:194
+#: elements/widgets/pxl_history.php:237 elements/widgets/pxl_icon_box.php:334
+#: elements/widgets/pxl_image_box.php:171 elements/widgets/pxl_team_grid.php:246
+msgid "Description Typography"
+msgstr ""
+
+#: elements/widgets/pxl_collection_carousel.php:355
+#: elements/widgets/pxl_meta_box_carousel.php:351
+#: elements/widgets/pxl_testimonial_carousel.php:275
+msgid "Bullets Color"
+msgstr ""
+
+#: elements/widgets/pxl_collection_carousel.php:371
+#: elements/widgets/pxl_history_carousel.php:293
+msgid "Vertical"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:11
+msgid "No contact forms found"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:17
+msgid "TN Contact Form"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:29
+msgid "Select Form"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:37
+msgid "Input"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:49
+msgid "Label Color"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:57
+msgid "Label Typography"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:64
+msgid "Palce HolderColor"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:88
+msgid "Padding Input"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:98
+msgid "Space Top Output"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:170
+msgid "Input Height"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:186
+msgid "Textarea Height"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:202
+msgid "Padding Textarea"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:212
+msgid "Spacer Bottom"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:230
+msgid "Button"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:244 elements/widgets/pxl_showcase.php:210
+msgid "Button Typography"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:251
+#: elements/widgets/pxl_countdown_progress.php:434 elements/widgets/pxl_icon.php:64
+msgid "Spacer Top"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:267 elements/widgets/pxl_showcase.php:192
+msgid "Button Color"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:283
+msgid "Background Gradient Color"
+msgstr ""
+
+#: elements/widgets/pxl_contact_form.php:317
+msgid "Width"
+msgstr ""
+
+#: elements/widgets/pxl_countdown.php:5
+msgid "TN Countdown"
+msgstr ""
+
+#: elements/widgets/pxl_countdown.php:41 elements/widgets/pxl_icon_box.php:39
+#: elements/widgets/pxl_team_carousel.php:45
+msgid "Layout 5"
+msgstr ""
+
+#: elements/widgets/pxl_countdown.php:61
+#: elements/widgets/pxl_countdown_progress.php:45
+msgid "Typography Title"
+msgstr ""
+
+#: elements/widgets/pxl_countdown.php:68
+#: elements/widgets/pxl_countdown_progress.php:52
+msgid "Alignment Title"
+msgstr ""
+
+#: elements/widgets/pxl_countdown.php:93
+#: elements/widgets/pxl_countdown_progress.php:77
+msgid "Typography Unit"
+msgstr ""
+
+#: elements/widgets/pxl_countdown.php:100
+#: elements/widgets/pxl_countdown_progress.php:84
+msgid "Typography Number"
+msgstr ""
+
+#: elements/widgets/pxl_countdown.php:107
+#: elements/widgets/pxl_countdown_progress.php:91
+#: elements/widgets/pxl_history_carousel.php:76
+#: elements/widgets/pxl_history_carousel.php:117
+#: elements/widgets/pxl_post_carousel.php:60 elements/widgets/pxl_post_grid.php:61
+#: elements/widgets/pxl_product_carousel.php:52
+#: inc/theme-options/theme-options.php:347
+msgid "Date"
+msgstr ""
+
+#: elements/widgets/pxl_countdown.php:110
+#: elements/widgets/pxl_countdown_progress.php:94
+msgid "Set date count down (Date format: yy/mm/dd)"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:5
+msgid "TN Countdown And Progress Bar"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:174
+msgid "Content Progress Bar"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:179
+#: elements/widgets/pxl_progressbar.php:49 elements/widgets/pxl_progressbar.php:103
+msgid "Progress Bar"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:184
+#: elements/widgets/pxl_progressbar.php:108
+msgid "Text Instead Of Value "
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:197
+#: elements/widgets/pxl_progressbar.php:121
+msgid "Title End"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:203
+#: elements/widgets/pxl_progressbar.php:127
+msgid "Value 1"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:209
+#: elements/widgets/pxl_progressbar.php:133
+msgid "Value 2"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:215
+#: elements/widgets/pxl_progressbar.php:139
+msgid "Value 3"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:221
+#: elements/widgets/pxl_countdown_progress.php:253
+#: elements/widgets/pxl_progressbar.php:64 elements/widgets/pxl_progressbar.php:145
+#: elements/widgets/pxl_progressbar.php:199
+msgid "Percentage"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:234 elements/widgets/pxl_menu.php:107
+#: elements/widgets/pxl_menu.php:255 elements/widgets/pxl_progressbar.php:77
+#: elements/widgets/pxl_progressbar.php:158
+msgid "Item Spacer"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:258
+#: elements/widgets/pxl_progressbar.php:204
+msgid "Value 1 Space Left"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:277
+#: elements/widgets/pxl_progressbar.php:223
+msgid "Value 2 Space Left"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:296
+#: elements/widgets/pxl_progressbar.php:242
+msgid "Value 3 Space Right"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:315
+#: elements/widgets/pxl_progressbar.php:261
+msgid "Percentage Color"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:323
+#: elements/widgets/pxl_progressbar.php:269
+msgid "Percentage Typography"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:332
+#: elements/widgets/pxl_progressbar.php:278
+msgid "Bar"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:337
+#: elements/widgets/pxl_progressbar.php:283
+msgid "Height Bar"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:364
+#: elements/widgets/pxl_progressbar.php:310
+msgid "Bar Color"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:372
+#: elements/widgets/pxl_progressbar.php:318
+msgid "Bar Background Color"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:382
+msgid "Content Icon"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:387 elements/widgets/pxl_icon.php:17
+msgid "Icons"
+msgstr ""
+
+#: elements/widgets/pxl_countdown_progress.php:402
+#: elements/widgets/pxl_history.php:57 elements/widgets/pxl_icon.php:32
+#: elements/widgets/pxl_image.php:84 elements/widgets/pxl_image_box.php:58
+#: elements/widgets/pxl_image_carousel.php:52 elements/widgets/pxl_image_grid.php:51
+#: elements/widgets/pxl_image_grid.php:58 elements/widgets/pxl_pricing.php:48
+#: elements/widgets/pxl_showcase.php:37 elements/widgets/pxl_tabs.php:64
+#: elements/widgets/pxl_team_carousel.php:73 elements/widgets/pxl_team_grid.php:62
+#: elements/widgets/pxl_team_single.php:37
+#: elements/widgets/pxl_testimonial_carousel.php:57
+#: elements/widgets/pxl_video_player.php:34
+msgid "Image"
+msgstr ""
+
+#: elements/widgets/pxl_counter.php:6
+msgid "TN Counter"
+msgstr ""
+
+#: elements/widgets/pxl_counter.php:57 elements/widgets/pxl_counter.php:172
+#: elements/widgets/pxl_download.php:51 elements/widgets/pxl_history.php:74
+#: elements/widgets/pxl_history_carousel.php:88
+#: elements/widgets/pxl_icon_box.php:129 elements/widgets/pxl_icon_box.php:312
+#: elements/widgets/pxl_image_box.php:87 elements/widgets/pxl_image_box.php:155
+#: elements/widgets/pxl_team_carousel.php:89 elements/widgets/pxl_team_grid.php:78
+#: elements/widgets/pxl_team_single.php:64
+#: elements/widgets/pxl_testimonial_carousel.php:73
+#: elements/widgets/pxl_token.php:46 template-parts/widgets/banner-box.php:115
+msgid "Description"
+msgstr ""
+
+#: elements/widgets/pxl_counter.php:64 elements/widgets/pxl_heading.php:37
+#: elements/widgets/pxl_heading.php:241 elements/widgets/pxl_pricing.php:71
+msgid "Sub Title"
+msgstr ""
+
+#: elements/widgets/pxl_counter.php:73
+msgid "Starting Number"
+msgstr ""
+
+#: elements/widgets/pxl_counter.php:79
+msgid "Ending Number"
+msgstr ""
+
+#: elements/widgets/pxl_counter.php:85
+msgid "Number Prefix"
+msgstr ""
+
+#: elements/widgets/pxl_counter.php:91
+msgid "Number Suffix"
+msgstr ""
+
+#: elements/widgets/pxl_counter.php:97
+msgid "Number Separator"
+msgstr ""
+
+#: elements/widgets/pxl_counter.php:108 elements/widgets/pxl_icon_box.php:69
+msgid "Icon Type"
+msgstr ""
+
+#: elements/widgets/pxl_counter.php:127 elements/widgets/pxl_icon_box.php:92
+msgid "Icon Image"
+msgstr ""
+
+#: elements/widgets/pxl_counter.php:129
+msgid "Select image icon."
+msgstr ""
+
+#: elements/widgets/pxl_counter.php:221 elements/widgets/pxl_hidden_sidebar.php:65
+#: elements/widgets/pxl_icon_box.php:491 elements/widgets/pxl_icon_search.php:40
+msgid "Icon Font Size"
+msgstr ""
+
+#: elements/widgets/pxl_counter.php:240 elements/widgets/pxl_counter.php:286
+#: elements/widgets/pxl_heading.php:205 elements/widgets/pxl_heading.php:272
+#: elements/widgets/pxl_history.php:244 elements/widgets/pxl_link.php:138
+msgid "Bottom Spacer"
+msgstr ""
+
+#: elements/widgets/pxl_counter.php:259
+msgid "Number"
+msgstr ""
+
+#: elements/widgets/pxl_counter.php:305
+msgid "Extra"
+msgstr ""
+
+#: elements/widgets/pxl_counter.php:310
+msgid "Box Border Color"
+msgstr ""
+
+#: elements/widgets/pxl_download.php:6
+msgid "TN Download"
+msgstr ""
+
+#: elements/widgets/pxl_heading.php:5
+msgid "TN Heading"
+msgstr ""
+
+#: elements/widgets/pxl_heading.php:17
+msgid "Source Type"
+msgstr ""
+
+#: elements/widgets/pxl_heading.php:71 elements/widgets/pxl_text_editor.php:53
+msgid "Max Width"
+msgstr ""
+
+#: elements/widgets/pxl_heading.php:89
+msgid "Highlight Text"
+msgstr ""
+
+#: elements/widgets/pxl_heading.php:95
+msgid "Text List"
+msgstr ""
+
+#: elements/widgets/pxl_heading.php:109
+msgid "Random Text Color"
+msgstr ""
+
+#: elements/widgets/pxl_heading.php:117 elements/widgets/pxl_heading.php:382
+msgid "Highlight Typography"
+msgstr ""
+
+#: elements/widgets/pxl_heading.php:164 elements/widgets/pxl_link.php:128
+#: elements/widgets/pxl_text_editor.php:92
+msgid "Custom Font Family"
+msgstr ""
+
+#: elements/widgets/pxl_heading.php:187
+msgid "Strock Gradient Color"
+msgstr ""
+
+#: elements/widgets/pxl_heading.php:198
+msgid "Title Shadow"
+msgstr ""
+
+#: elements/widgets/pxl_heading.php:326
+msgid "Highlight"
+msgstr ""
+
+#: elements/widgets/pxl_heading.php:341
+msgid "Highlight Color"
+msgstr ""
+
+#: elements/widgets/pxl_heading.php:352
+msgid "Highlight Background Color"
+msgstr ""
+
+#: elements/widgets/pxl_hidden_sidebar.php:7
+msgid "TN Hidden Sidebar"
+msgstr ""
+
+#: elements/widgets/pxl_hidden_sidebar.php:19 elements/widgets/pxl_tabs.php:92
+msgid "Select Templates"
+msgstr ""
+
+#: elements/widgets/pxl_hidden_sidebar.php:49
+msgid "Background Color Hover"
+msgstr ""
+
+#: elements/widgets/pxl_hidden_sidebar.php:57 elements/widgets/pxl_icon.php:160
+#: elements/widgets/pxl_icon_search.php:32
+msgid "Icon Color Hover"
+msgstr ""
+
+#: elements/widgets/pxl_hidden_sidebar.php:102 elements/widgets/pxl_icon.php:233
+#: elements/widgets/pxl_icon_box.php:439 elements/widgets/pxl_icon_search.php:121
+msgid "Box Height"
+msgstr ""
+
+#: elements/widgets/pxl_hidden_sidebar.php:121 elements/widgets/pxl_icon.php:252
+#: elements/widgets/pxl_icon_box.php:458 elements/widgets/pxl_icon_search.php:140
+msgid "Box Width"
+msgstr ""
+
+#: elements/widgets/pxl_history.php:5
+msgid "TN History"
+msgstr ""
+
+#: elements/widgets/pxl_history.php:52 elements/widgets/pxl_history.php:122
+#: elements/widgets/pxl_history_carousel.php:68
+#: elements/widgets/pxl_history_carousel.php:109
+msgid "History"
+msgstr ""
+
+#: elements/widgets/pxl_history.php:62 elements/widgets/pxl_history.php:127
+msgid "Date(Does not work on layout 1.)"
+msgstr ""
+
+#: elements/widgets/pxl_history.php:86 elements/widgets/pxl_history_carousel.php:101
+#: elements/widgets/pxl_history_carousel.php:134
+msgid "Present"
+msgstr ""
+
+#: elements/widgets/pxl_history.php:91
+msgid "Space Top"
+msgstr ""
+
+#: elements/widgets/pxl_history.php:139
+msgid "List Content"
+msgstr ""
+
+#: elements/widgets/pxl_history.php:144
+msgid "Space Left"
+msgstr ""
+
+#: elements/widgets/pxl_history.php:170
+msgid "Height Procces"
+msgstr ""
+
+#: elements/widgets/pxl_history.php:222
+msgid "Description Color "
+msgstr ""
+
+#: elements/widgets/pxl_history.php:230 elements/widgets/pxl_icon_box.php:245
+#: elements/widgets/pxl_image_box.php:146 elements/widgets/pxl_image_carousel.php:80
+#: elements/widgets/pxl_meta_box_carousel.php:113
+#: elements/widgets/pxl_meta_box_carousel.php:156
+#: elements/widgets/pxl_post_carousel.php:297 elements/widgets/pxl_pricing.php:209
+#: elements/widgets/pxl_product_grid.php:241
+#: elements/widgets/pxl_progressbar.php:190 elements/widgets/pxl_showcase.php:329
+#: elements/widgets/pxl_tabs.php:209 elements/widgets/pxl_team_carousel.php:123
+#: elements/widgets/pxl_team_grid.php:216
+msgid "Title Typography"
+msgstr ""
+
+#: elements/widgets/pxl_history_carousel.php:8
+msgid "TN History Carousel"
+msgstr ""
+
+#: elements/widgets/pxl_history_carousel.php:148
+msgid "Color Arrows"
+msgstr ""
+
+#: elements/widgets/pxl_icon.php:5
+msgid "TN Icons"
+msgstr ""
+
+#: elements/widgets/pxl_icon.php:138
+msgid "Hover Style"
+msgstr ""
+
+#: elements/widgets/pxl_icon.php:182
+msgid "Box Color Hover"
+msgstr ""
+
+#: elements/widgets/pxl_icon.php:211
+msgid "Spacer"
+msgstr ""
+
+#: elements/widgets/pxl_icon.php:329
+msgid "Border Color Hover"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:6
+msgid "TN Icon Box"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:43 elements/widgets/pxl_team_carousel.php:49
+msgid "Layout 6"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:47 elements/widgets/pxl_team_carousel.php:53
+msgid "Layout 7"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:51
+msgid "Layout 8"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:55
+msgid "Layout 9"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:101
+msgid "Step"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:119 elements/widgets/pxl_pricing.php:167
+#: template-parts/widgets/banner-box.php:122
+msgid "Button Text"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:147
+msgid "Text Align"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:174
+msgid "Widget Max Width"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:234
+msgid "Title Color Hover"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:262
+msgid "Title Top Spacer"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:278
+msgid " Space Left"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:294
+msgid "Title Bottom Spacer"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:349
+msgid "Box Icon Radius"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:383
+msgid "Background Color Step"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:394
+msgid "Icon Color Box Hover"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:417
+msgid "Box Icon Color "
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:428
+msgid "Box Icon Color Hover"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:510
+msgid "Icon Image Max Height"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:529
+msgid "Box Background"
+msgstr ""
+
+#: elements/widgets/pxl_icon_box.php:540
+msgid "Hover Box Shadow"
+msgstr ""
+
+#: elements/widgets/pxl_icon_search.php:6
+msgid "TN Search Popup"
+msgstr ""
+
+#: elements/widgets/pxl_icon_search.php:56
+msgid "Input Typography"
+msgstr ""
+
+#: elements/widgets/pxl_icon_search.php:96
+msgid "Input Background Color"
+msgstr ""
+
+#: elements/widgets/pxl_icon_search.php:107
+msgid "Input Color"
+msgstr ""
+
+#: elements/widgets/pxl_icon_user.php:6
+msgid "TN User"
+msgstr ""
+
+#: elements/widgets/pxl_icon_user.php:13
+msgid "Source Settings"
+msgstr ""
+
+#: elements/widgets/pxl_icon_user.php:39 elements/widgets/pxl_pricing.php:344
+msgid "Background Button Color"
+msgstr ""
+
+#: elements/widgets/pxl_icon_user.php:48
+msgid "Input Border Color"
+msgstr ""
+
+#: elements/widgets/pxl_icon_user.php:56
+#: elements/widgets/pxl_meta_box_carousel.php:139
+msgid "Link Color"
+msgstr ""
+
+#: elements/widgets/pxl_icon_user.php:64
+msgid "Link Typography"
+msgstr ""
+
+#: elements/widgets/pxl_image.php:5
+msgid "TN Image"
+msgstr ""
+
+#: elements/widgets/pxl_image.php:20
+msgid "Choose Image"
+msgstr ""
+
+#: elements/widgets/pxl_image.php:30 elements/widgets/pxl_video_player.php:23
+msgid "Image Type"
+msgstr ""
+
+#: elements/widgets/pxl_image.php:40 elements/widgets/pxl_image_box.php:63
+#: elements/widgets/pxl_image_carousel.php:109
+#: elements/widgets/pxl_image_grid.php:220
+#: elements/widgets/pxl_meta_box_carousel.php:204
+#: elements/widgets/pxl_post_carousel.php:304 elements/widgets/pxl_post_grid.php:94
+#: elements/widgets/pxl_post_grid.php:331
+#: elements/widgets/pxl_product_carousel.php:84
+#: elements/widgets/pxl_product_grid.php:89 elements/widgets/pxl_showcase.php:128
+#: elements/widgets/pxl_team_carousel.php:152
+#: elements/widgets/pxl_video_player.php:42
+msgid "Image Size"
+msgstr ""
+
+#: elements/widgets/pxl_image.php:49
+msgid "Image Alignment"
+msgstr ""
+
+#: elements/widgets/pxl_image.php:72
+msgid "Parallax Move Mouse"
+msgstr ""
+
+#: elements/widgets/pxl_image.php:89 elements/widgets/pxl_image.php:127
+#: elements/widgets/pxl_showcase.php:134 elements/widgets/pxl_video_player.php:51
+msgid "Image Height"
+msgstr ""
+
+#: elements/widgets/pxl_image.php:91 elements/widgets/pxl_image.php:110
+#: elements/widgets/pxl_image.php:129 elements/widgets/pxl_logo.php:78
+#: elements/widgets/pxl_showcase.php:219 elements/widgets/pxl_showcase.php:248
+#: elements/widgets/pxl_video_player.php:53
+msgid "Enter number."
+msgstr ""
+
+#: elements/widgets/pxl_image.php:108
+msgid "Image Width"
+msgstr ""
+
+#: elements/widgets/pxl_image.php:162
+msgid "Image Effect"
+msgstr ""
+
+#: elements/widgets/pxl_image.php:182
+msgid "Max Tilt"
+msgstr ""
+
+#: elements/widgets/pxl_image.php:191
+msgid "Speed Tilt"
+msgstr ""
+
+#: elements/widgets/pxl_image_box.php:6
+msgid "TN Image Box"
+msgstr ""
+
+#: elements/widgets/pxl_image_box.php:69
+msgid "Link Video"
+msgstr ""
+
+#: elements/widgets/pxl_image_carousel.php:8
+msgid "Pxl Image Carousel"
+msgstr ""
+
+#: elements/widgets/pxl_image_carousel.php:87
+#: elements/widgets/pxl_team_carousel.php:130 elements/widgets/pxl_team_grid.php:223
+msgid "Position Color"
+msgstr ""
+
+#: elements/widgets/pxl_image_carousel.php:95
+#: elements/widgets/pxl_team_carousel.php:138 elements/widgets/pxl_team_grid.php:231
+msgid "Position Typography"
+msgstr ""
+
+#: elements/widgets/pxl_image_carousel.php:104
+#: elements/widgets/pxl_team_carousel.php:147
+msgid "Carousel Settings"
+msgstr ""
+
+#: elements/widgets/pxl_image_carousel.php:216
+#: elements/widgets/pxl_team_carousel.php:266
+msgid "Show Dots"
+msgstr ""
+
+#: elements/widgets/pxl_image_grid.php:5
+msgid "TN Image Grid"
+msgstr ""
+
+#: elements/widgets/pxl_image_grid.php:67 elements/widgets/pxl_post_grid.php:89
+#: elements/widgets/pxl_token.php:56
+msgid "Grid"
+msgstr ""
+
+#: elements/widgets/pxl_image_grid.php:145 elements/widgets/pxl_post_grid.php:256
+msgid "Grid Masonry"
+msgstr ""
+
+#: elements/widgets/pxl_link.php:5
+msgid "TN Links"
+msgstr ""
+
+#: elements/widgets/pxl_link.php:104
+msgid "Color Dark Mode"
+msgstr ""
+
+#: elements/widgets/pxl_link.php:197
+msgid "Top Spacer"
+msgstr ""
+
+#: elements/widgets/pxl_link.php:229
+msgid "Min Width"
+msgstr ""
+
+#: elements/widgets/pxl_logo.php:6
+msgid "TN Logo"
+msgstr ""
+
+#: elements/widgets/pxl_logo.php:22
+msgid "Dark Mode"
+msgstr ""
+
+#: elements/widgets/pxl_logo.php:33
+msgid "Logo Dark"
+msgstr ""
+
+#: elements/widgets/pxl_logo.php:76
+msgid "Height"
+msgstr ""
+
+#: elements/widgets/pxl_menu.php:18
+msgid "TN Nav Menu"
+msgstr ""
+
+#: elements/widgets/pxl_menu.php:30
+msgid "Select Menu"
+msgstr ""
+
+#: elements/widgets/pxl_menu.php:61
+msgid "First Level"
+msgstr ""
+
+#: elements/widgets/pxl_menu.php:116 elements/widgets/pxl_menu.php:273
+msgid "Hover/Active Style"
+msgstr ""
+
+#: elements/widgets/pxl_menu.php:128 elements/widgets/pxl_menu.php:244
+msgid "Color Divider"
+msgstr ""
+
+#: elements/widgets/pxl_menu.php:139
+msgid "Divider Height"
+msgstr ""
+
+#: elements/widgets/pxl_menu.php:157
+msgid "Divider Position"
+msgstr ""
+
+#: elements/widgets/pxl_menu.php:161
+msgid "Top"
+msgstr ""
+
+#: elements/widgets/pxl_menu.php:165
+msgid "Middle"
+msgstr ""
+
+#: elements/widgets/pxl_menu.php:169
+msgid "Bottom"
+msgstr ""
+
+#: elements/widgets/pxl_menu.php:180
+msgid "Flex Grow"
+msgstr ""
+
+#: elements/widgets/pxl_menu.php:184 inc/theme-options/option-functions.php:10
+#: inc/theme-options/option-functions.php:23
+#: inc/theme-options/option-functions.php:128
+#: inc/theme-options/option-functions.php:194
+#: inc/theme-options/option-functions.php:227
+msgid "Inherit"
+msgstr ""
+
+#: elements/widgets/pxl_menu.php:188
+msgid "Full"
+msgstr ""
+
+#: elements/widgets/pxl_menu.php:200
+msgid "Sub Level"
+msgstr ""
+
+#: elements/widgets/pxl_menu.php:213
+msgid "Color Hover/Actvie"
+msgstr ""
+
+#: elements/widgets/pxl_menu.php:221
+msgid "Background Color Hover/Actvie"
+msgstr ""
+
+#: elements/widgets/pxl_menu.php:229
+msgid "Background Color Hover/Actvie Gradient"
+msgstr ""
+
+#: elements/widgets/pxl_meta_box_carousel.php:7
+msgid "Meta Box Carousel Pxl"
+msgstr ""
+
+#: elements/widgets/pxl_meta_box_carousel.php:42
+msgid "List"
+msgstr ""
+
+#: elements/widgets/pxl_meta_box_carousel.php:48
+msgid "Item Active"
+msgstr ""
+
+#: elements/widgets/pxl_meta_box_carousel.php:59
+msgid "List Active"
+msgstr ""
+
+#: elements/widgets/pxl_meta_box_carousel.php:104
+#: elements/widgets/pxl_showcase.php:320
+msgid "Hover Title Color"
+msgstr ""
+
+#: elements/widgets/pxl_meta_box_carousel.php:120
+msgid "Title Margin (px)"
+msgstr ""
+
+#: elements/widgets/pxl_meta_box_carousel.php:131 elements/widgets/pxl_tabs.php:217
+msgid "Content Color"
+msgstr ""
+
+#: elements/widgets/pxl_meta_box_carousel.php:147
+msgid "Hover Link Color"
+msgstr ""
+
+#: elements/widgets/pxl_meta_box_carousel.php:163
+msgid "Content Margin (px)"
+msgstr ""
+
+#: elements/widgets/pxl_meta_box_carousel.php:174
+msgid "Box Padding"
+msgstr ""
+
+#: elements/widgets/pxl_meta_box_carousel.php:310
+#: elements/widgets/pxl_product_carousel.php:186
+#: elements/widgets/pxl_product_grid.php:213
+msgid "Item Padding"
+msgstr ""
+
+#: elements/widgets/pxl_meta_box_carousel.php:364
+#: elements/widgets/pxl_testimonial_carousel.php:287
+msgid "Bullets Color Active"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:6
+msgid "TN Post Carousel"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:23 elements/widgets/pxl_post_grid.php:24
+msgid "Select Post Type"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:35 elements/widgets/pxl_post_grid.php:36
+#: elements/widgets/pxl_product_carousel.php:36
+#: elements/widgets/pxl_product_grid.php:40
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2639
+msgid "Source"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:41 elements/widgets/pxl_post_grid.php:42
+msgid "Select posts by"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:45 elements/widgets/pxl_post_grid.php:46
+msgid "Terms selected"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:46 elements/widgets/pxl_post_grid.php:47
+msgid "Posts selected "
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:56 elements/widgets/pxl_post_grid.php:57
+#: elements/widgets/pxl_product_carousel.php:48
+msgid "Order By"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:61 elements/widgets/pxl_post_grid.php:62
+#: elements/widgets/pxl_product_carousel.php:53
+msgid "ID"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:62 elements/widgets/pxl_post_grid.php:63
+#: elements/widgets/pxl_product_carousel.php:54
+#: inc/theme-options/theme-options.php:354
+msgid "Author"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:64 elements/widgets/pxl_post_grid.php:65
+#: elements/widgets/pxl_product_carousel.php:56
+msgid "Random"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:69 elements/widgets/pxl_post_grid.php:70
+#: elements/widgets/pxl_product_carousel.php:61
+msgid "Sort Order"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:73 elements/widgets/pxl_post_grid.php:74
+#: elements/widgets/pxl_product_carousel.php:65
+msgid "Descending"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:74 elements/widgets/pxl_post_grid.php:75
+#: elements/widgets/pxl_product_carousel.php:66
+msgid "Ascending"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:79 elements/widgets/pxl_post_grid.php:80
+#: elements/widgets/pxl_product_carousel.php:71
+msgid "Total items"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:88
+#: elements/widgets/pxl_product_carousel.php:79
+msgid "Carousel"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:93
+msgid "Ukilo Animate"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:241 elements/widgets/pxl_slider.php:167
+msgid "Autoplay Delay"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:262
+msgid "Show Scroll Drap"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:270 elements/widgets/pxl_post_grid.php:341
+msgid "Display"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:311
+msgid "Image Sizes"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:316
+msgid "Size"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:370 elements/widgets/pxl_post_grid.php:346
+msgid "Show Category"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:387 elements/widgets/pxl_post_grid.php:363
+msgid "Show Excerpt"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:393 elements/widgets/pxl_post_grid.php:380
+msgid "Number of Words"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:400
+msgid "Show Button Readmore"
+msgstr ""
+
+#: elements/widgets/pxl_post_carousel.php:418
+msgid "Button Readmore Text"
+msgstr ""
+
+#: elements/widgets/pxl_post_grid.php:6
+msgid "TN Post Grid"
+msgstr ""
+
+#: elements/widgets/pxl_post_grid.php:107
+msgid "Filter on Masonry"
+msgstr ""
+
+#: elements/widgets/pxl_post_grid.php:111 elements/widgets/pxl_product_grid.php:99
+msgid "Enable"
+msgstr ""
+
+#: elements/widgets/pxl_post_grid.php:112 elements/widgets/pxl_post_grid.php:163
+#: elements/widgets/pxl_product_grid.php:100
+#: elements/widgets/pxl_product_grid.php:173
+#: inc/theme-options/option-functions.php:130
+#: inc/theme-options/option-functions.php:137
+#: inc/theme-options/option-functions.php:197
+#: inc/theme-options/option-functions.php:204
+msgid "Disable"
+msgstr ""
+
+#: elements/widgets/pxl_post_grid.php:120 elements/widgets/pxl_product_grid.php:119
+msgid "Filter Default Title"
+msgstr ""
+
+#: elements/widgets/pxl_post_grid.php:122 elements/widgets/pxl_product_grid.php:121
+msgid "All"
+msgstr ""
+
+#: elements/widgets/pxl_post_grid.php:130
+msgid "Filter Alignment"
+msgstr ""
+
+#: elements/widgets/pxl_post_grid.php:161 elements/widgets/pxl_product_grid.php:171
+msgid "Pagination"
+msgstr ""
+
+#: elements/widgets/pxl_post_grid.php:162 elements/widgets/pxl_product_grid.php:172
+msgid "Loadmore"
+msgstr ""
+
+#: elements/widgets/pxl_post_grid.php:168
+msgid "Pagination Style"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:5
+msgid "TN Pricing"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:76
+msgid "Title Feature 1"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:85
+msgid "Feature 1"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:109
+msgid "Title Feature 2"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:118
+msgid "Feature 2"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:145
+msgid "Price"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:150
+msgid "Sub Price"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:158
+msgid "Sub Button"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:173 template-parts/widgets/banner-box.php:129
+msgid "Button Link"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:185
+msgid "Box Note Color"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:216
+msgid "Text Sub Button Color"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:224
+msgid "Sub Button Color"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:232
+msgid "Sub Title Color"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:240
+msgid "Sub Title Typography"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:247
+msgid "Title Feature Color"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:255
+msgid "Feature Color"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:263
+msgid "Icon Feature Color"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:271
+msgid "Feature Color Strong"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:282
+msgid "Feature Divider Color"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:293
+msgid "Feature Typography"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:300
+msgid "Box Price Color"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:311
+msgid "Price Color"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:319
+msgid "Price Typography"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:326
+msgid "Popular Color"
+msgstr ""
+
+#: elements/widgets/pxl_pricing.php:353
+msgid "Popular Typography"
+msgstr ""
+
+#: elements/widgets/pxl_product_carousel.php:6
+msgid "TN Product Carousel "
+msgstr ""
+
+#: elements/widgets/pxl_product_carousel.php:41
+msgid "Select Categories"
+msgstr ""
+
+#: elements/widgets/pxl_product_carousel.php:249
+msgid "Scroll"
+msgstr ""
+
+#: elements/widgets/pxl_product_carousel.php:281
+msgid "Style Layout"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:7
+msgid "TN Product Grid "
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:45
+msgid "Select Query Type"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:49
+msgid "Recent Products"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:50
+msgid "Best Selling"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:51
+msgid "Featured Products"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:52
+msgid "High Rate"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:53
+msgid "On Sale"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:54
+msgid "Recent Review"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:55
+msgid "Product Deals"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:56
+msgid "Product separate"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:61
+msgid "Select Term of Product"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:68
+msgid "Products id (123,124,135...)"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:75
+msgid "Post per page"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:83
+msgid "General Settings"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:95
+msgid "Term Filter"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:109
+msgid "Off"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:110
+msgid "On"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:128
+msgid "Filter Margin (px)"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:141
+msgid "Filter Item Margin"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:178
+msgid "Load More text"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:187
+msgid "Pagination Alignment"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:230
+msgid "Item Gap Bottom"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:231
+msgid "Add extra space at bottom of each items"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:249
+msgid "Item"
+msgstr ""
+
+#: elements/widgets/pxl_product_grid.php:255
+msgid "Grid Settings"
+msgstr ""
+
+#: elements/widgets/pxl_progressbar.php:5
+msgid "TN Progress Bar"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:6
+msgid "TN Showcase"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:42
+msgid "Button Text 1"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:47
+msgid "Link 1"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:49 elements/widgets/pxl_showcase.php:61
+#: elements/widgets/pxl_showcase.php:75
+msgid "https://your-link.com"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:54
+msgid "Button Text 2"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:59
+msgid "Link 2"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:73
+msgid "Title Link"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:80
+msgid "Show Notification"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:86
+msgid "Notification Text"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:103
+msgid "Inactive"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:122
+msgid "Scroll Effect"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:130
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by theme). Alternatively enter size in pixels (Example: "
+"200x100 (Width x Height)."
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:162
+msgid "Image Brightness"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:181
+msgid "Image Margin"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:201
+msgid "Button Background Color"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:217
+msgid "Button Min Width"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:246
+msgid "Button Space"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:275
+msgid "Notification Color"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:288
+msgid "Notification Background Color"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:300
+msgid "Notification Typography"
+msgstr ""
+
+#: elements/widgets/pxl_showcase.php:336
+msgid "Title Margin"
+msgstr ""
+
+#: elements/widgets/pxl_slider.php:8
+msgid "TN Slider"
+msgstr ""
+
+#: elements/widgets/pxl_slider.php:35
+msgid "Slides"
+msgstr ""
+
+#: elements/widgets/pxl_slider.php:40
+msgid "Select Template"
+msgstr ""
+
+#: elements/widgets/pxl_slider.php:56 inc/theme-options/page-options.php:144
+msgid "Background Image"
+msgstr ""
+
+#: elements/widgets/pxl_slider.php:61
+msgid "Background Ken Burns"
+msgstr ""
+
+#: elements/widgets/pxl_slider.php:67
+msgid "Overlay Color"
+msgstr ""
+
+#: elements/widgets/pxl_slider.php:75
+msgid "Overlay Image"
+msgstr ""
+
+#: elements/widgets/pxl_slider.php:82 elements/widgets/pxl_team_carousel.php:100
+#: elements/widgets/pxl_team_grid.php:89 elements/widgets/pxl_team_single.php:74
+#: elements/widgets/pxl_testimonial_carousel.php:80
+#: inc/theme-options/theme-options.php:388 inc/theme-options/theme-options.php:395
+#: template-parts/widgets/icon-social.php:27
+#: template-parts/widgets/widget-elementor.php:27
+msgid "Social"
+msgstr ""
+
+#: elements/widgets/pxl_slider.php:106
+msgid "Slogan"
+msgstr ""
+
+#: elements/widgets/pxl_slider.php:120
+msgid "Label"
+msgstr ""
+
+#: elements/widgets/pxl_slider.php:187
+msgid "Show Progress Bar"
+msgstr ""
+
+#: elements/widgets/pxl_tabs.php:6
+msgid "TN Tabs"
+msgstr ""
+
+#: elements/widgets/pxl_tabs.php:47
+msgid "Tabs"
+msgstr ""
+
+#: elements/widgets/pxl_tabs.php:52
+msgid "Active Tab"
+msgstr ""
+
+#: elements/widgets/pxl_tabs.php:66
+msgid "Only Use For Layout 2"
+msgstr ""
+
+#: elements/widgets/pxl_tabs.php:76
+msgid "Content Type"
+msgstr ""
+
+#: elements/widgets/pxl_tabs.php:80
+msgid "From Template Builder"
+msgstr ""
+
+#: elements/widgets/pxl_tabs.php:124
+msgid "Align"
+msgstr ""
+
+#: elements/widgets/pxl_tabs.php:135
+msgid "Space Right Content"
+msgstr ""
+
+#: elements/widgets/pxl_tabs.php:151
+msgid "Space Top Content"
+msgstr ""
+
+#: elements/widgets/pxl_tabs.php:167
+msgid "Effect"
+msgstr ""
+
+#: elements/widgets/pxl_tabs.php:185
+msgid "Border Title Color"
+msgstr ""
+
+#: elements/widgets/pxl_tabs.php:193
+msgid "Line Under Title Color"
+msgstr ""
+
+#: elements/widgets/pxl_tabs.php:201
+msgid "Title Active Color"
+msgstr ""
+
+#: elements/widgets/pxl_tabs.php:225
+msgid "Content Typography"
+msgstr ""
+
+#: elements/widgets/pxl_team_carousel.php:8
+msgid "TN Team Carousel"
+msgstr ""
+
+#: elements/widgets/pxl_team_carousel.php:67 elements/widgets/pxl_team_grid.php:46
+msgid "Team"
+msgstr ""
+
+#: elements/widgets/pxl_team_carousel.php:84 elements/widgets/pxl_team_grid.php:73
+#: elements/widgets/pxl_team_grid.php:94 elements/widgets/pxl_team_single.php:48
+#: elements/widgets/pxl_team_single.php:59
+#: elements/widgets/pxl_testimonial_carousel.php:68
+msgid "Position"
+msgstr ""
+
+#: elements/widgets/pxl_team_grid.php:5
+msgid "TN Team Map"
+msgstr ""
+
+#: elements/widgets/pxl_team_grid.php:41
+msgid "Image Map"
+msgstr ""
+
+#: elements/widgets/pxl_team_grid.php:52
+msgid "Content Position Desktop"
+msgstr ""
+
+#: elements/widgets/pxl_team_grid.php:106 elements/widgets/pxl_video_player.php:96
+msgid "Top Position"
+msgstr ""
+
+#: elements/widgets/pxl_team_grid.php:129 elements/widgets/pxl_video_player.php:165
+msgid "Left Position"
+msgstr ""
+
+#: elements/widgets/pxl_team_grid.php:152 elements/widgets/pxl_video_player.php:142
+msgid "Bottom Position"
+msgstr ""
+
+#: elements/widgets/pxl_team_grid.php:175 elements/widgets/pxl_video_player.php:119
+msgid "Right Position"
+msgstr ""
+
+#: elements/widgets/pxl_team_single.php:6
+msgid "tn team single"
+msgstr ""
+
+#: elements/widgets/pxl_team_single.php:13
+msgid "layout"
+msgstr ""
+
+#: elements/widgets/pxl_team_single.php:18
+msgid "templates"
+msgstr ""
+
+#: elements/widgets/pxl_team_single.php:23
+msgid "layout 1"
+msgstr ""
+
+#: elements/widgets/pxl_team_single.php:32
+msgid "content"
+msgstr ""
+
+#: elements/widgets/pxl_testimonial_carousel.php:8
+msgid "TN Testimonial Carousel "
+msgstr ""
+
+#: elements/widgets/pxl_testimonial_carousel.php:47
+msgid "Testimonial"
+msgstr ""
+
+#: elements/widgets/pxl_testimonial_carousel.php:52
+msgid "Small Image"
+msgstr ""
+
+#: elements/widgets/pxl_text_carousel.php:8
+msgid "TN Text Carousel"
+msgstr ""
+
+#: elements/widgets/pxl_text_editor.php:8
+msgid "TN Text Editor"
+msgstr ""
+
+#: elements/widgets/pxl_text_editor.php:15
+msgid "Text Editor"
+msgstr ""
+
+#: elements/widgets/pxl_text_editor.php:22
+msgid ""
+"Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur "
+"adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus "
+"leo."
+msgstr ""
+
+#: elements/widgets/pxl_token.php:5
+msgid "TN Token Grid"
+msgstr ""
+
+#: elements/widgets/pxl_token.php:29 inc/theme-options/theme-options.php:157
+msgid "Style 3"
+msgstr ""
+
+#: elements/widgets/pxl_token.php:34
+msgid "Token List"
+msgstr ""
+
+#: elements/widgets/pxl_video_player.php:6
+msgid "TN Video "
+msgstr ""
+
+#: elements/widgets/pxl_video_player.php:70
+msgid "Button Video Style"
+msgstr ""
+
+#: elements/widgets/pxl_video_player.php:80
+msgid "Button Video Position"
+msgstr ""
+
+#: elements/widgets/pxl_video_player.php:195
+msgid "Button Video Text Color"
+msgstr ""
+
+#: elements/widgets/pxl_video_player.php:203
+msgid "Box Icon Color"
+msgstr ""
+
+#: elements/widgets/pxl_video_player.php:211
+msgid "Box Icon Background Color"
+msgstr ""
+
+#: elements/widgets/pxl_video_player.php:219
+msgid "Box Border Radius"
+msgstr ""
+
+#: inc/admin/admin-import.php:17 inc/admin/admin-import.php:18
+msgid "Import Demos"
+msgstr ""
+
+#: inc/admin/admin-init.php:99
+msgid "Dashboard"
+msgstr ""
+
+#: inc/admin/admin-plugins.php:17 inc/admin/admin-plugins.php:18
+#: inc/admin/libs/merlin/merlin-config.php:83
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:335
+#: inc/admin/views/admin-plugins.php:51 inc/admin/views/admin-tabs.php:39
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/admin/admin-plugins.php:37
+msgctxt "Plugin installation page."
+msgid "Install"
+msgstr ""
+
+#: inc/admin/admin-plugins.php:56
+msgctxt "Plugin installation page."
+msgid "Activate"
+msgstr ""
+
+#: inc/admin/admin-plugins.php:74 inc/admin/admin-plugins.php:102
+msgctxt "Plugin installation page."
+msgid "Deactivate"
+msgstr ""
+
+#: inc/admin/admin-require-plugins.php:16
+msgid "Redux Framework"
+msgstr ""
+
+#: inc/admin/admin-require-plugins.php:20
+msgid "Build theme options and post, page options for WordPress Theme."
+msgstr ""
+
+#: inc/admin/admin-require-plugins.php:24
+msgid "Elementor"
+msgstr ""
+
+#: inc/admin/admin-require-plugins.php:28
+msgid ""
+"Introducing a WordPress website builder, with no limits of design. A website "
+"builder that delivers high-end page designs and advanced capabilities"
+msgstr ""
+
+#: inc/admin/admin-require-plugins.php:32
+msgid "Tnex Addons"
+msgstr ""
+
+#: inc/admin/admin-require-plugins.php:37
+msgid ""
+"Main process and Powerful Elements Plugin, exclusively for Icoland WordPress "
+"Theme."
+msgstr ""
+
+#: inc/admin/admin-require-plugins.php:41
+msgid "Tnex User"
+msgstr ""
+
+#: inc/admin/admin-require-plugins.php:46
+msgid "Active Shortcode User, exclusively for Icoland WordPress Theme."
+msgstr ""
+
+#: inc/admin/admin-require-plugins.php:58
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/admin/admin-require-plugins.php:62
+msgid ""
+"Contact Form 7 can manage multiple contact forms, you can customize the form and "
+"the mail contents flexibly with simple markup"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:489
+msgid "Something went wrong. Please refresh the page and try again!"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:636
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:641
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:750
+msgid "Welcome"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:763
+msgid "License"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:771
+msgid "Plugins"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:785
+msgid "Ready"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:902
+msgid "The welcome step has been displayed"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1002
+msgid "The license activation step has been displayed"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1068
+msgid "The child theme installation step has been displayed"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1149
+#: inc/admin/libs/merlin/class-merlin.php:1150
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2365
+msgid "Required"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1190
+msgid "The plugin installation step has been displayed"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1232
+msgid "Select Demo"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1278
+msgid "The content import step has been displayed"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1358
+msgid "The final step has been displayed"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1435
+msgid "The existing child theme was activated"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1452
+msgid "The newly generated child theme was activated"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1473
+msgid "Yikes! The theme activation failed. Please try again or contact support."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1482
+msgid "Please add your license key before attempting to activate one."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1495
+msgid "The license activation was performed with the following results"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1541
+#: inc/admin/libs/merlin/class-merlin.php:1582
+#: inc/admin/updater/register-admin.php:165
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1554
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1560
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1564
+#: inc/admin/updater/register-admin.php:156
+msgid ""
+"This appears to be an invalid license key. Please try again or contact support."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1569
+#: inc/admin/updater/register-admin.php:162
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1574
+#: inc/admin/updater/register-admin.php:159
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1578
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1672
+msgid "The child theme functions.php content was generated"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1703
+msgid "The child theme style.css content was generated"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1737
+msgid ""
+"The child theme screenshot was copied to the child theme, with the following "
+"result"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1739
+msgid "The child theme screenshot was not generated, because of these results"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1768
+msgid "Activating"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1784
+msgid "Updating"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1800
+#: inc/admin/libs/merlin/class-merlin.php:1816
+#: inc/admin/libs/merlin/class-merlin.php:2034
+#: inc/admin/libs/merlin/class-merlin.php:2047
+#: inc/admin/libs/merlin/class-merlin.php:2060
+#: inc/admin/libs/merlin/class-merlin.php:2073
+#: inc/admin/libs/merlin/class-merlin.php:2086
+#: inc/admin/libs/merlin/class-merlin.php:2099
+#: inc/admin/libs/merlin/class-merlin.php:2142
+msgid "Installing"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1808
+msgid "A plugin with the following data will be processed"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1820
+msgid "A plugin with the following data was processed"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1829
+#: inc/admin/libs/merlin/class-merlin.php:2035
+#: inc/admin/libs/merlin/class-merlin.php:2048
+#: inc/admin/libs/merlin/class-merlin.php:2061
+#: inc/admin/libs/merlin/class-merlin.php:2074
+#: inc/admin/libs/merlin/class-merlin.php:2087
+#: inc/admin/libs/merlin/class-merlin.php:2100
+msgid "Success"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1852
+msgid "The content importer AJAX call failed to start, because of incorrect data"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1857
+msgid "Invalid content!"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1868
+msgid "The content import AJAX call will be executed with this import data"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1910
+msgid "The content import AJAX call failed with this passed data"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1921
+msgid "Error"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1935
+msgid ""
+"The content importer AJAX call for retrieving total content import items failed "
+"to start, because of incorrect data."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:1940
+msgid "Invalid data!"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:2032
+msgid "Demo content data."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:2033
+#: inc/admin/libs/merlin/class-merlin.php:2046
+#: inc/admin/libs/merlin/class-merlin.php:2059
+#: inc/admin/libs/merlin/class-merlin.php:2072
+#: inc/admin/libs/merlin/class-merlin.php:2085
+#: inc/admin/libs/merlin/class-merlin.php:2098
+msgid "Pending"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:2044 inc/admin/views/admin-demos.php:145
+msgid "Widgets"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:2045
+msgid "Sample widgets data."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:2057
+msgid "Revolution Slider"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:2058
+msgid "Sample Revolution sliders data."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:2070
+msgid "Options"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:2071
+msgid "Sample theme options data."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:2083
+msgid "Redux Options"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:2084
+msgid "Redux framework options."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:2096
+msgid "After import setup"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:2097
+msgid "After import setup."
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:2126
+msgid "The revolution slider import was executed"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:2163
+msgid "The home page was set"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:2173
+msgid "The blog page was set"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:2188
+msgid "The Hello world post status was set to draft"
+msgstr ""
+
+#: inc/admin/libs/merlin/class-merlin.php:2212
+msgid ""
+"This predefined demo import does not have the name parameter: import_file_name"
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-customizer-importer.php:30
+msgid "The customizer import has finished successfully"
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-customizer-importer.php:57
+#, php-format
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-customizer-importer.php:70
+msgid ""
+"Error: The customizer import file does not have any content in it. Please make "
+"sure to use the correct customizer import file."
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-customizer-importer.php:80
+msgid ""
+"Error: The customizer import file is not in a correct format. Please make sure to "
+"use the correct customizer import file."
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-customizer-importer.php:86
+msgid ""
+"Error: The customizer import file is not suitable for current theme. You can only "
+"import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-downloader.php:49
+msgid "The file was not able to save to disk, while trying to download it"
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-downloader.php:66
+msgid "Missing URL for downloading a file!"
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-downloader.php:84
+#, php-format
+msgid ""
+"An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - %6$s."
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-redux-importer.php:32
+msgid "The Redux Framework data was imported"
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-widget-importer.php:72
+msgid "Error: Widget import file could not be found."
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-widget-importer.php:83
+msgid "Error: Widget import file does not have any content in it."
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-widget-importer.php:105
+msgid "Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-widget-importer.php:144
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-widget-importer.php:165
+msgid "Site does not support widget"
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-widget-importer.php:198
+msgid "Widget already exists"
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-widget-importer.php:256
+msgid "Imported"
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-widget-importer.php:260
+msgid "Imported to Inactive"
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-widget-importer.php:266
+msgid "No Title"
+msgstr ""
+
+#: inc/admin/libs/merlin/includes/class-merlin-widget-importer.php:328
+msgid "No results for widget import!"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:39
+msgid "Setup Wizard"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:42
+#, php-format
+msgid "%1$s%2$s Themes &lsaquo; Theme Setup: %3$s%4$s"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:43
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:44
+msgid "Disable this wizard"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:46
+msgid "Skip"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:47 inc/classes/class-blog.php:233
+#: woocommerce/_hook_single.php:131
+msgid "Next"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:49
+msgid "Cancel"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:50
+#: inc/admin/libs/merlin/merlin-config.php:51
+#: inc/admin/libs/merlin/merlin-config.php:52
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2808
+msgid "Install"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:53
+msgid "Import"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:54
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2817
+msgid "Activate"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:55
+msgid "Later"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:58
+msgid "Activate Theme"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:59
+msgid "Activate Your Theme"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:61
+#, php-format
+msgid "%s is Activated"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:63
+msgid "Please add your Envato purchase code to confirm the purchase."
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:64
+msgid "License key"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:65
+msgid "The theme is already registered, so you can go to the next step!"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:66
+msgid "Your theme is activated! Remote updates and theme support are enabled."
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:67
+msgid "Need help?"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:70
+msgid "Let's Get You Started"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:71
+msgid "Hi. Welcome back"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:72
+msgid ""
+"Thanks for purchasing theme! You can now register your product to install "
+"plugins, import demos and unlock exlusive features."
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:73
+msgid ""
+"You may have already run this theme setup wizard. If you would like to proceed "
+"anyway, click on the \"Start\" button below."
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:75
+msgid "Install Child Theme"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:76
+msgid "You're good to go!"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:77
+msgid "Let's build & activate a child theme so you may easily make theme changes."
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:78
+msgid ""
+"Your child theme has already been installed and is now activated, if it wasn't "
+"already."
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:79
+msgid "Learn about child themes"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:80
+msgid "Awesome. Your child theme has already been installed and is now activated."
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:81
+msgid "Awesome. Your child theme has been created and is now activated."
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:84
+msgid "Plugins are all installed"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:85
+msgid "Let's install some essential WordPress plugins to get you started."
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:86
+msgid ""
+"The required WordPress plugins are all installed and up to date. Press \"Next\" "
+"to continue the setup wizard."
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:87
+msgid "View Plugins"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:89 inc/admin/views/admin-demos.php:42
+msgid "Import a Demo"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:90
+msgid "Choose a demo for importing to your website"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:91
+msgid "Advanced"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:93
+msgid "You're Ready!"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:96
+#, php-format
+msgid "Your theme has been all set up. Enjoy your new theme by %s."
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:97
+msgid "Extras"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:98
+msgid "View your website"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:99
+msgid "Help center"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:100
+msgid "Get Theme Support"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-config.php:101 inc/admin/views/admin-demos.php:138
+#: inc/theme-options/theme-options.php:24 inc/theme-options/theme-options.php:25
+msgid "Theme Options"
+msgstr ""
+
+#: inc/admin/libs/merlin/merlin-filters.php:34
+msgid "A special note for this import."
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:55
+msgid ""
+"The XMLReader class is missing! Please install the XMLReader PHP extension on "
+"your server"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:68
+msgid "Could not open the XML file for picolandng!"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:248
+msgid "Content import start error: "
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:280
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:173
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:291
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:364
+#, php-format
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may not be "
+"supported. Please consider updating."
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:504
+msgid "New AJAX call!"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:135
+msgid "Could not open the file for picolandng"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:514
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:577
+msgid "Invalid author mapping"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:678
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:770
+#, php-format
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:780
+#, php-format
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:858
+#, php-format
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:872
+#, php-format
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:904
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1822
+#, php-format
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:909
+#, php-format
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:949
+#, php-format
+msgid "Failed to import term: %s - %s"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1094
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1593
+#, php-format
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1614
+#, php-format
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1618
+#, php-format
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1783
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1827
+#, php-format
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1886
+#, php-format
+msgid "Failed to add metakey: %s, metavalue: %s to term_id: %d"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1895
+#, php-format
+msgid "Meta for term_id %d : %s => %s ; successfully added!"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1947
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1969
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1975
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2000
+#, php-format
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2013
+#, php-format
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2018
+#, php-format
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2032
+#, php-format
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2037
+#, php-format
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2063
+#, php-format
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2074
+#, php-format
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2119
+#, php-format
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2124
+#, php-format
+msgid ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be found"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2146
+#, php-format
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2150
+#, php-format
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2164
+#, php-format
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2168
+#, php-format
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2185
+#, php-format
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2216
+#, php-format
+msgid "Faulty term_id provided in terms-to-be-remapped array %s"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2226
+#, php-format
+msgid "No taxonomy provided in terms-to-be-remapped array for term #%d"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2236
+#, php-format
+msgid "No parent_slug identified in remapping-array for term: %d"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2244
+#, php-format
+msgid "The term(%d)\"s parent_slug (%s) is not found in the remapping-array."
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2258
+#, php-format
+msgid "No data returned by get_term_by for term_id #%d"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2277
+#, php-format
+msgid "Could not update \"%s\" (term #%d) with mapped data"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2287
+#, php-format
+msgid "Term %d was successfully updated with parent %d"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2322
+msgid "Starting remapping of featured images"
+msgstr ""
+
+#: inc/admin/libs/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2331
+#, php-format
+msgid "Remapping featured image ID %d to new ID %d for post ID %d"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure maximum "
+"compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:393
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:920
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2625
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:3670
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:394
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:3250
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:395
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:3043
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. Please "
+"update the plugin."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:1026
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug and "
+"renaming did not work."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:1026
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:1029
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin according "
+"to the WordPress guidelines."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:1029
+msgid ""
+"The remote plugin package consists of more than one file, but the files are not "
+"packaged in a folder."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:1213
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:3039
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2074
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2368
+msgid "Recommended"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2384
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2387
+msgid "External Source"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2390
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2407
+msgid "Not Installed"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2411
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2419
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2422
+msgid "Requires Update"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2425
+msgid "Update recommended"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2434
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2480
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2484
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2488
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2492
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2574
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2582
+msgid "Installed version:"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2590
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2602
+msgid "Available version:"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2625
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2638
+msgid "Plugin"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2644
+#: inc/admin/views/admin-tabs.php:27
+msgid "Version"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2645
+msgid "Status"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2694
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2705
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2775
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2814
+msgid "Update"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2848
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2891
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:2999
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:3025
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:3249
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:3589
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:3592
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:3598
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:3601
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:3603
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:3606
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:3609
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/admin/libs/tgmpa/class-tgm-plugin-activation.php:3611
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/admin/updater/register-admin.php:114 inc/admin/views/admin-demos.php:27
+#: inc/admin/views/admin-plugins.php:45
+#, php-format
+msgid "The %s theme needs to be registered. %sRegister Now%s"
+msgstr ""
+
+#: inc/admin/updater/register-admin.php:118
+msgid "Purchase code is invalid. Need a license for activation"
+msgstr ""
+
+#: inc/admin/updater/register-admin.php:127
+msgid "Register License"
+msgstr ""
+
+#: inc/admin/updater/register-admin.php:133 inc/admin/updater/register-admin.php:175
+msgid "Can’t find your purchase code?"
+msgstr ""
+
+#: inc/admin/updater/register-admin.php:170
+msgid "Active false"
+msgstr ""
+
+#: inc/admin/updater/register-admin.php:171
+msgid "our help center"
+msgstr ""
+
+#: inc/admin/updater/register-admin.php:171 inc/admin/updater/register-admin.php:185
+#: inc/admin/views/admin-registration.php:17
+msgid "submit a ticket"
+msgstr ""
+
+#: inc/admin/updater/register-admin.php:184
+#: inc/admin/views/admin-registration.php:16
+msgid "Thanks for the verification!"
+msgstr ""
+
+#: inc/admin/updater/register-admin.php:185
+#: inc/admin/views/admin-registration.php:17
+msgid "You can now enjoy and build great websites. Looking for help? Visit"
+msgstr ""
+
+#: inc/admin/updater/register-admin.php:191
+#: inc/admin/views/admin-registration.php:23
+msgid "Remove Purchase Code"
+msgstr ""
+
+#: inc/admin/updater/register-admin.php:218
+msgid "Enter your purchase code"
+msgstr ""
+
+#: inc/admin/updater/register-admin.php:219
+msgid "Register your purchase code"
+msgstr ""
+
+#: inc/admin/updater/updater-class.php:72
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</a>."
+msgstr ""
+
+#: inc/admin/views/admin-dashboard.php:10
+msgid "Unlock Premium Features"
+msgstr ""
+
+#: inc/admin/views/admin-dashboard.php:16
+msgid "Theme Activation"
+msgstr ""
+
+#: inc/admin/views/admin-dashboard.php:22
+msgid "System status"
+msgstr ""
+
+#: inc/admin/views/admin-demos.php:31
+msgid ""
+"Make sure to activate required plugins prior to import a demo to %. %sActive Now%s"
+msgstr ""
+
+#: inc/admin/views/admin-demos.php:43
+msgid "Choose a pre-built website for starting a quick design process."
+msgstr ""
+
+#: inc/admin/views/admin-demos.php:46
+msgid "Note:"
+msgstr ""
+
+#: inc/admin/views/admin-demos.php:46 inc/admin/views/admin-plugins.php:58
+msgid "Make sure to activate required plugins prior to import a demo."
+msgstr ""
+
+#: inc/admin/views/admin-demos.php:79 inc/admin/views/admin-demos.php:184
+#: inc/admin/views/admin-tabs.php:44
+msgid "Import Demo"
+msgstr ""
+
+#: inc/admin/views/admin-demos.php:82
+msgid "Preview Demo"
+msgstr ""
+
+#: inc/admin/views/admin-demos.php:100
+msgid "Importing..."
+msgstr ""
+
+#: inc/admin/views/admin-demos.php:101
+msgid "Working"
+msgstr ""
+
+#: inc/admin/views/admin-demos.php:104
+msgid "0%"
+msgstr ""
+
+#: inc/admin/views/admin-demos.php:118
+msgid "Select all or a few"
+msgstr ""
+
+#: inc/admin/views/admin-demos.php:124
+msgid "Media Attachments"
+msgstr ""
+
+#: inc/admin/views/admin-demos.php:153
+msgid "Revslider"
+msgstr ""
+
+#: inc/admin/views/admin-demos.php:171
+msgid "Skip the posts exist. By default, all current content will be deleted."
+msgstr ""
+
+#: inc/admin/views/admin-demos.php:179
+msgid "Crop Image after import finish?"
+msgstr ""
+
+#: inc/admin/views/admin-featured.php:3 inc/admin/views/admin-featured.php:13
+#: inc/admin/views/admin-featured.php:23 inc/admin/views/admin-system-info.php:88
+msgid "Check"
+msgstr ""
+
+#: inc/admin/views/admin-featured.php:6
+msgid "Enable Auto Updates"
+msgstr ""
+
+#: inc/admin/views/admin-featured.php:7
+msgid "Smart Dashboard keeps your site up-to-date. Free for lifetime."
+msgstr ""
+
+#: inc/admin/views/admin-featured.php:16
+msgid "Exclusive and Premium Plugins"
+msgstr ""
+
+#: inc/admin/views/admin-featured.php:17
+msgid "Get access to premium and exclusive plugins for free."
+msgstr ""
+
+#: inc/admin/views/admin-featured.php:26
+msgid "Premium Support"
+msgstr ""
+
+#: inc/admin/views/admin-featured.php:27
+msgid "Get access to top-notch support."
+msgstr ""
+
+#: inc/admin/views/admin-plugins.php:7 inc/admin/views/admin-plugins.php:28
+msgid "Install All"
+msgstr ""
+
+#: inc/admin/views/admin-plugins.php:26
+msgid "Install & Active All"
+msgstr ""
+
+#: inc/admin/views/admin-plugins.php:30
+msgid "Active All"
+msgstr ""
+
+#: inc/admin/views/admin-plugins.php:81
+msgid "Active:"
+msgstr ""
+
+#: inc/admin/views/admin-system-info.php:30
+msgid "Upload max file size (64MB)"
+msgstr ""
+
+#: inc/admin/views/admin-system-info.php:43
+msgid "Memory limit (256MB)"
+msgstr ""
+
+#: inc/admin/views/admin-system-info.php:56
+msgid "Post max size (64MB)"
+msgstr ""
+
+#: inc/admin/views/admin-system-info.php:65
+msgid "Max Execution Time (6s)"
+msgstr ""
+
+#: inc/admin/views/admin-system-info.php:74
+msgid "Max input vars (3000)"
+msgstr ""
+
+#: inc/admin/views/admin-system-info.php:90
+msgid "Un Check"
+msgstr ""
+
+#: inc/admin/views/admin-tabs.php:26
+msgid "Welcome to"
+msgstr ""
+
+#: inc/admin/views/admin-tabs.php:34
+#, php-format
+msgid "%s Dashboard"
+msgstr ""
+
+#: inc/admin/views/admin-tabs.php:51
+msgid "Videos tutorial"
+msgstr ""
+
+#: inc/admin/views/admin-tabs.php:56
+msgid "Support system"
+msgstr ""
+
+#: inc/admin/views/admin-tabs.php:61
+msgid "Live Demo"
+msgstr ""
+
+#: inc/admin/views/admin-tabs.php:68
+msgid "Documentations"
+msgstr ""
+
+#: inc/classes/class-blog.php:55
+msgid "Post password required."
+msgstr ""
+
+#: inc/classes/class-blog.php:106
+msgid "Tags:"
+msgstr ""
+
+#: inc/classes/class-blog.php:128 inc/classes/class-blog.php:197
+#: inc/theme-options/theme-options.php:402
+msgid "Facebook"
+msgstr ""
+
+#: inc/classes/class-blog.php:131 inc/classes/class-blog.php:198
+#: inc/theme-options/theme-options.php:410
+msgid "Twitter"
+msgstr ""
+
+#: inc/classes/class-blog.php:134 inc/classes/class-blog.php:199
+#: inc/theme-options/theme-options.php:418
+msgid "Pinterest"
+msgstr ""
+
+#: inc/classes/class-blog.php:137 inc/classes/class-blog.php:200
+#: inc/theme-options/theme-options.php:426
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/classes/class-blog.php:223
+msgid "Previous"
+msgstr ""
+
+#: inc/classes/class-blog.php:324
+msgid "BLOGS"
+msgstr ""
+
+#: inc/classes/class-blog.php:325
+msgid "Related News"
+msgstr ""
+
+#: inc/classes/class-breadcrumb.php:53
+msgid "Home"
+msgstr ""
+
+#: inc/classes/class-breadcrumb.php:57
+msgid "Not Found"
+msgstr ""
+
+#: inc/classes/class-breadcrumb.php:58
+msgid "Search Results"
+msgstr ""
+
+#: inc/classes/class-breadcrumb.php:329
+msgid "Tag:"
+msgstr ""
+
+#: inc/classes/class-breadcrumb.php:345
+msgid "Author:"
+msgstr ""
+
+#: inc/classes/class-page.php:152
+msgid "Blog"
+msgstr ""
+
+#: inc/classes/class-page.php:161
+msgid "404"
+msgstr ""
+
+#: inc/classes/class-page.php:163
+msgid "Search results"
+msgstr ""
+
+#: inc/classes/class-page.php:165
+msgid "Course"
+msgstr ""
+
+#: inc/post_favorite/post_favorite.php:58
+msgid "Love this"
+msgstr ""
+
+#: inc/post_favorite/post_favorite.php:62
+msgid "You already love this!"
+msgstr ""
+
+#: inc/theme-actions.php:32 inc/theme-config.php:9
+msgid "Primary"
+msgstr ""
+
+#: inc/theme-actions.php:74
+msgid "Blog Single Sidebar"
+msgstr ""
+
+#: inc/theme-actions.php:84
+msgid "Page Sidebar"
+msgstr ""
+
+#: inc/theme-actions.php:95
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/theme-config.php:13
+msgid "Secondary"
+msgstr ""
+
+#: inc/theme-config.php:17
+msgid "Third"
+msgstr ""
+
+#: inc/theme-config.php:21
+msgid "Regular"
+msgstr ""
+
+#: inc/theme-filters.php:180
+msgid "Reply"
+msgstr ""
+
+#: inc/theme-functions.php:26
+msgctxt "Inter font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/theme-functions.php:30
+msgctxt "Zen Dots font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/theme-functions.php:34
+msgctxt "Russo One font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/theme-functions.php:38
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/theme-functions.php:42
+msgctxt "Rowdies font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/theme-functions.php:46
+msgctxt "Oswald font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/theme-functions.php:49
+msgctxt "Urbanist font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/theme-functions.php:303
+msgid "Search Here"
+msgstr ""
+
+#: inc/theme-functions.php:512
+msgid "Collection Image"
+msgstr ""
+
+#: inc/theme-functions.php:517
+msgid "fix value"
+msgstr ""
+
+#: inc/theme-options/option-functions.php:102
+msgid "Main Header Layout"
+msgstr ""
+
+#: inc/theme-options/option-functions.php:103
+#: inc/theme-options/option-functions.php:111
+#: inc/theme-options/option-functions.php:153
+#: inc/theme-options/option-functions.php:175
+#, php-format
+msgid "Please create your layout before choosing. %sClick Here%s"
+msgstr ""
+
+#: inc/theme-options/option-functions.php:110
+msgid "Sticky Header Layout"
+msgstr ""
+
+#: inc/theme-options/option-functions.php:129
+#: inc/theme-options/option-functions.php:136
+msgid "Builder"
+msgstr ""
+
+#: inc/theme-options/option-functions.php:145 inc/theme-options/page-options.php:41
+#: inc/theme-options/page-options.php:125 inc/theme-options/page-options.php:216
+#: inc/theme-options/page-options.php:284 inc/theme-options/theme-options.php:282
+msgid "Page Title"
+msgstr ""
+
+#: inc/theme-options/option-functions.php:152
+msgid "Page Title Layout"
+msgstr ""
+
+#: inc/theme-options/option-functions.php:174
+msgid "Footer Layout"
+msgstr ""
+
+#: inc/theme-options/option-functions.php:211
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/theme-options/option-functions.php:212
+msgid "Select a sidebar position is displayed."
+msgstr ""
+
+#: inc/theme-options/page-options.php:8 inc/theme-options/page-options.php:14
+msgid "Post Options"
+msgstr ""
+
+#: inc/theme-options/page-options.php:21 inc/theme-options/page-options.php:97
+#: inc/theme-options/page-options.php:196 inc/theme-options/page-options.php:281
+#: inc/theme-options/theme-options.php:227
+msgid "Header"
+msgstr ""
+
+#: inc/theme-options/page-options.php:32 inc/theme-options/page-options.php:117
+#: inc/theme-options/page-options.php:207
+msgid "Menu"
+msgstr ""
+
+#: inc/theme-options/page-options.php:67 inc/theme-options/page-options.php:159
+#: inc/theme-options/page-options.php:242
+msgid "Spacing Top/Bottom"
+msgstr ""
+
+#: inc/theme-options/page-options.php:78 inc/theme-options/page-options.php:177
+#: inc/theme-options/page-options.php:253 inc/theme-options/page-options.php:282
+#: inc/theme-options/theme-options.php:295
+msgid "Footer"
+msgstr ""
+
+#: inc/theme-options/page-options.php:91
+msgid "Page Options"
+msgstr ""
+
+#: inc/theme-options/page-options.php:108
+msgid "Select Logo Mobile"
+msgstr ""
+
+#: inc/theme-options/page-options.php:170 inc/theme-options/theme-options.php:181
+msgid "Content background color."
+msgstr ""
+
+#: inc/theme-options/page-options.php:190
+msgid "Product Settings"
+msgstr ""
+
+#: inc/theme-options/page-options.php:266
+msgid "Template Options"
+msgstr ""
+
+#: inc/theme-options/page-options.php:272 inc/theme-options/theme-options.php:128
+msgid "General"
+msgstr ""
+
+#: inc/theme-options/page-options.php:280
+msgid "Select Type"
+msgstr ""
+
+#: inc/theme-options/page-options.php:283
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/theme-options/page-options.php:285
+msgid "Slider"
+msgstr ""
+
+#: inc/theme-options/page-options.php:286
+msgid "Tab"
+msgstr ""
+
+#: inc/theme-options/page-options.php:287
+msgid "Hidden Panel"
+msgstr ""
+
+#: inc/theme-options/page-options.php:288
+msgid "Widget Sidebar"
+msgstr ""
+
+#: inc/theme-options/page-options.php:295
+msgid "Header Type"
+msgstr ""
+
+#: inc/theme-options/page-options.php:298
+msgid "Transparent"
+msgstr ""
+
+#: inc/theme-options/page-options.php:307
+msgid "Header Position"
+msgstr ""
+
+#: inc/theme-options/page-options.php:310
+msgid "Fixed Left"
+msgstr ""
+
+#: inc/theme-options/page-options.php:311
+msgid "Fixed Right"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:134
+msgid "Favicon"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:141
+msgid "Mouse Move Animation"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:147
+msgid "Loader"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:153
+msgid "Loader Style"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:158
+msgid "Style 4"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:159
+msgid "Style 5"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:160
+msgid "Style 6"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:174
+msgid "Colors"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:187
+msgid "Primary Color"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:194
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:201
+msgid "Regular Color"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:208
+msgid "Fourth Color"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:215
+msgid "Fifrth Color"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:235
+msgid "Sticky Scroll"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:237
+msgid "Scroll To Top"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:238
+msgid "Scroll To Bottom"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:247
+msgid "Mobile"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:254
+msgid "Select Logo"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:263
+msgid "Logo Height"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:271
+msgid "Search Form"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:303
+msgid "Button Back to Top"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:309
+msgid "Footer Fixed"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:322
+msgid "Blog Archive"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:330
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:332
+msgid "Default: 50"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:339
+msgid "Single Post"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:348
+msgid "Display the Date for blog post."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:355
+msgid "Display the Author for blog post."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:361
+msgid "Categories"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:362
+msgid "Display the Category for blog post."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:368
+msgid "Tags"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:369
+msgid "Display the Tag for blog post."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:375
+msgid "Navigation"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:376 inc/theme-options/theme-options.php:383
+msgid "Display the Navigation for blog post."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:382
+msgid "Related Post"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:396
+msgid "Display the Social Share for blog post."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:468
+msgid "Body"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:481
+msgid "Heading 1"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:492
+msgid "Heading 2"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:503
+msgid "Heading 3"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:514
+msgid "Heading 4"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:525
+msgid "Heading 5"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:536
+msgid "Heading 6"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:547
+msgid "Theme Default"
+msgstr ""
+
+#: searchform.php:8
+msgid "Search Keyword"
+msgstr ""
+
+#: template-parts/content/content-none.php:8
+msgid "Nothing here"
+msgstr ""
+
+#: template-parts/content/content-none.php:15
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: template-parts/content/content-none.php:16
+msgid "Get started here"
+msgstr ""
+
+#: template-parts/content/content-none.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content/content-none.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can "
+"help."
+msgstr ""
+
+#: template-parts/content/content-search.php:5
+msgid "Read more"
+msgstr ""
+
+#: template-parts/widgets/banner-box.php:13
+msgid "Icoland Banner Box"
+msgstr ""
+
+#: template-parts/widgets/banner-box.php:15
+msgid "Your site’s most Banner Box."
+msgstr ""
+
+#: template-parts/widgets/banner-box.php:79
+msgid "Box Background Image"
+msgstr ""
+
+#: template-parts/widgets/banner-box.php:96
+#: template-parts/widgets/banner-box.php:101
+msgid "Select Image"
+msgstr ""
+
+#: template-parts/widgets/banner-box.php:97
+#: template-parts/widgets/banner-box.php:102
+msgid "Remove Image"
+msgstr ""
+
+#: template-parts/widgets/icon-social.php:13
+msgid "* Icoland Icon Social"
+msgstr ""
+
+#: template-parts/widgets/icon-social.php:15
+#: template-parts/widgets/widget-elementor.php:15
+msgid "Your site’s most Icon Social."
+msgstr ""
+
+#: template-parts/widgets/icon-social.php:182
+#: template-parts/widgets/recent-posts.php:117
+#: template-parts/widgets/widget-elementor.php:56
+msgid "Title:"
+msgstr ""
+
+#: template-parts/widgets/icon-social.php:185
+msgid "Link Twitter:"
+msgstr ""
+
+#: template-parts/widgets/icon-social.php:187
+#: template-parts/widgets/icon-social.php:191
+#: template-parts/widgets/icon-social.php:198
+#: template-parts/widgets/icon-social.php:203
+#: template-parts/widgets/icon-social.php:208
+#: template-parts/widgets/icon-social.php:213
+msgid "________________________________________"
+msgstr ""
+
+#: template-parts/widgets/icon-social.php:189
+msgid "Link Facebook:"
+msgstr ""
+
+#: template-parts/widgets/icon-social.php:193
+msgid "Link Reddit:"
+msgstr ""
+
+#: template-parts/widgets/icon-social.php:196
+msgid "Link Linked:"
+msgstr ""
+
+#: template-parts/widgets/icon-social.php:200
+msgid "Link Printerest:"
+msgstr ""
+
+#: template-parts/widgets/icon-social.php:205
+msgid "Link Stumbleupon:"
+msgstr ""
+
+#: template-parts/widgets/icon-social.php:210
+msgid "Link Delicious:"
+msgstr ""
+
+#: template-parts/widgets/icon-social.php:215
+msgid "Link Envelope:"
+msgstr ""
+
+#: template-parts/widgets/recent-posts.php:13
+msgid "Icoland Recent Posts"
+msgstr ""
+
+#: template-parts/widgets/recent-posts.php:15
+msgid "Your site’s most recent Posts."
+msgstr ""
+
+#: template-parts/widgets/recent-posts.php:107
+msgid "Recent Posts"
+msgstr ""
+
+#: template-parts/widgets/recent-posts.php:121
+msgid "Post in"
+msgstr ""
+
+#: template-parts/widgets/recent-posts.php:123
+msgid "Recent"
+msgstr ""
+
+#: template-parts/widgets/recent-posts.php:124
+msgid "Featured"
+msgstr ""
+
+#: template-parts/widgets/recent-posts.php:129
+msgid "Number of posts to show:"
+msgstr ""
+
+#: template-parts/widgets/widget-categories.php:92
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: template-parts/widgets/widget-elementor.php:13
+msgid "* Icoland Elementor Box"
+msgstr ""
+
+#: template-parts/widgets/widget-elementor.php:59
+msgid "Templates :"
+msgstr ""
+
+#: woocommerce/_hook_archives.php:232 woocommerce/_hook_archives.php:233
+msgid "d"
+msgstr ""
+
+#: woocommerce/_hook_archives.php:234 woocommerce/_hook_archives.php:235
+msgid "h"
+msgstr ""
+
+#: woocommerce/_hook_archives.php:236 woocommerce/_hook_archives.php:237
+msgid "m"
+msgstr ""
+
+#: woocommerce/_hook_archives.php:238 woocommerce/_hook_archives.php:239
+msgid "s"
+msgstr ""
+
+#: woocommerce/_hook_archives.php:446 woocommerce/cart/mini-cart.php:55
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/_hook_archives.php:473
+msgid "Your cart is empty"
+msgstr ""
+
+#: woocommerce/_hook_archives.php:474
+msgid "Browse Shop"
+msgstr ""
+
+#: woocommerce/_hook_archives.php:483 woocommerce/cart/mini-cart.php:73
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/_hook_archives.php:488 woocommerce/cart/mini-cart.php:78
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/_hook_archives.php:489 woocommerce/cart/mini-cart.php:79
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/_hook_single.php:130
+msgid "Back"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:86
+msgid "No products in the cart."
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://demo.tnexthemes.com/icoland/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Icoland is a premium, trendy and modern WordPress Theme for ICO Presentation and "
+"new Crypto coins, bitcoin mining websites, crypto currency exchange and trading, "
+"digital currencies, finances and business consulting, outstanding features, full "
+"responsive and mobile-friendly."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Tnex-Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/tnex-themes/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog Classic"
+msgstr ""

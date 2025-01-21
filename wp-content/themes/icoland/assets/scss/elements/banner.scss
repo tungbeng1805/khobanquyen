@@ -1,0 +1,20 @@
+.pxl-banner1 {
+    width: 305px;  
+    padding: 24px 30px 30px 30px;
+    background-color: #fff;
+    @media (max-width: 480px) {
+        width: 290px;
+    }
+    .pxl-item--title {
+        @extend .ft-theme-default;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 32px;
+        color: $secondary-color;
+        padding-bottom: 11px;
+        span {
+            font-size: 30px;
+            color: $primary-color;
+        }
+    }
+}

@@ -1,0 +1,178 @@
+.pxl-video-player {
+    .btn-video {
+        z-index: 2;
+    }
+    .pxl-box--icon {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        bottom: 54px;
+        right: 95px;
+        background-color: #ffde19;
+        border-radius: 100px;
+        text-align: center;
+        font-size: 38px;
+        color: #000010;
+        @media #{$max-lg} {
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            bottom: 30px;
+            right: 40px;
+        }
+        @media #{$max-sm} {
+            bottom: 20px;
+            right: 20px;
+        }
+        i {
+            @extend .pxl-middle;
+        }
+    }
+}
+.pxl-video-style1 {
+    position: relative;
+    .btn-video-wrap {
+        z-index: 3;
+    }
+    &:before {
+        position: absolute;
+        content: '';
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(19, 49, 107, 0.4);
+        border-radius: 8px;
+    }
+}
+.pxl-video-player1 {
+    .pxl-shadow-gradient {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        @include transform(translate(-50%, -50%));
+        @include background-horizontal($gradient_color_from, $gradient_color_to);
+        filter: blur(40px);
+        @include border-radius(100%);
+        display: none;
+    }
+    .pxl-video--holder {
+        img, .pxl-video--imagebg {
+            @include border-radius(8px);
+        }
+        + .btn-video-wrap {
+            position: absolute;
+            z-index: 99;
+            text-align: center;
+            &.p-center {
+                top: 50%;
+                left: 50%;
+                @include transform(translate(-50%, -50%));
+            }
+        }
+    }
+    .pxl-video-text {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #fefeff;
+        letter-spacing: 0.05em;
+        font-weight: 700;
+        @extend .ft-theme-default;
+        width: 100%;
+        display: block;
+        margin-top: 24px;
+    }
+    .btn-video {
+        position: relative;
+        i {
+            display: inline-flex;
+            @extend .pxl-middle;
+            font-size: 22px;
+            color: #130F40;
+        }
+        &.style1 { 
+            width: 60px;
+            height: 60px;
+            @media #{$max-sm} {
+                width: 60px;
+                height: 60px;
+                line-height: 60px;
+                font-size: 15px;
+            }
+            &:before {
+                position: absolute;
+                content: '';
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                bottom: 0px;
+                animation: scale-border 3s linear infinite;
+                border: 0.3px solid #fff;
+                background-color: transparent !important;
+                border-radius: 500px;
+                opacity: 0;
+            }
+            &:after {
+                position: absolute;
+                content: '';
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                bottom: 0px;
+                animation: scale-border 3s 1.5s linear infinite;
+                background-color: transparent !important;
+                border: 0.3px solid #fff;
+                border-radius: 500px;
+                opacity: 0;
+            }
+        }
+        &.style2 {
+            font-size: 18px;
+            width: 112px;
+            height: 112px;
+            background-color: rgba(255,255,255,0.4);
+            @include transition(250ms all linear 0ms);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @media (max-width: 575px) {
+                width: 60px;
+                height: 60px;
+                img {
+                    height: 25px;
+                }
+            }
+            &:before {
+                position: absolute;
+                content: '';
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                bottom: 0px;
+                animation: scale-border 3s linear infinite;
+                border: 0.3px solid #fff;
+                background-color: transparent !important;
+                border-radius: 500px;
+                opacity: 0;
+            }
+            &:after {
+                position: absolute;
+                content: '';
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                bottom: 0px;
+                animation: scale-border 3s 1.5s linear infinite;
+                background-color: transparent !important;
+                border: 0.3px solid #fff;
+                border-radius: 500px;
+                opacity: 0;
+            }
+            &:hover {
+                transform:scale(.9);
+            }
+        }
+    }
+}
