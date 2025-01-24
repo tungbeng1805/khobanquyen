@@ -938,9 +938,9 @@ a.nav-top-link.nav-top-not-logged-in.is-small span {
     .blog-single .entry-content {
     padding-top:20px;
 } 
-    #logo img:not(.logo-icon-mobile) {
+    /* #logo img:not(.logo-icon-mobile) {
         display: none;
-    }
+    } */
     .header-main #logo {
         order: 1;
         margin: 0px !important;
@@ -956,7 +956,7 @@ a.nav-top-link.nav-top-not-logged-in.is-small span {
         margin: unset;
     }
     .header-main #logo {
-        width: 100px;
+        width: auto;
     }
     #logo img.logo-icon-mobile {
         display: block;

@@ -40,7 +40,6 @@ if ( ! empty( $site_logo_dark_id ) && ! is_numeric( $site_logo_dark_id ) ) {
 		<?php
 		if ( $site_logo ) {
 			$site_title = esc_attr( get_bloginfo( 'name', 'display' ) );
-			echo '<img width="' . esc_attr( $site_logo_sticky[1] ) . '" height="' . esc_attr( $site_logo_sticky[2] ) . '" src="' . esc_url( $site_logo_sticky[0] ) . '" class="header-logo-sticky" alt="'.$site_title.'"/>';
 			echo '<img width="' . esc_attr( $site_logo[1] ) . '" height="' . esc_attr( $site_logo[2] ) . '" src="' . esc_url( $site_logo[0] ) . '" class="header_logo header-logo" alt="'.$site_title.'"/>';
 			// if ( $site_logo_sticky ) echo '<img width="' . esc_attr( $site_logo_sticky[1] ) . '" height="' . esc_attr( $site_logo_sticky[2] ) . '" src="' . esc_url( $site_logo_sticky[0] ) . '" class="header-logo-sticky" alt="'.$site_title.'"/>';
 			// echo '<img src="' . esc_url( $mobile_logo_image['url'] ) . '" class="logo-icon-mobile lazyloaded" alt="'.$site_title.'"/>';
