@@ -941,12 +941,13 @@ a.nav-top-link.nav-top-not-logged-in.is-small span {
     #logo img:not(.logo-icon-mobile) {
         display: none;
     }
-    .header-main  #logo {
-        order: 3;
+    .header-main #logo {
+        order: 1;
+        margin: 0px !important;
     }
     .header-main .medium-logo-center .flex-right {
         order: 1;
-        width: 70%;
+        width: auto;
         flex: unset;
     }
     #logo img {
