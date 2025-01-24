@@ -928,6 +928,9 @@ a.nav-top-link.nav-top-not-logged-in.is-small span {
     border: 4px solid #18375d;
 }
 
+.icon-menu {
+    font-size: 25px !important;
+}
 
 
 /*reponsive logo 1024px*/
