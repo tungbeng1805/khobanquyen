@@ -1510,6 +1510,10 @@ button#place_order, a.checkout-button.button.alt.wc-forward{
     display: none;
 }
 @media only screen and (max-width: 849px){
+    #logo img {
+        max-height: 70px !important;
+        order: 3;
+    }
 	.prod-stats-item, .prod-stats-item a {
     
 	flex-flow: column;
